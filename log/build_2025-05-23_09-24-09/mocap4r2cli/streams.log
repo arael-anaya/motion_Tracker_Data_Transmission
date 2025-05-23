@@ -1,0 +1,23 @@
+[0.741s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli/build --no-deps symlink_data
+[0.994s] running develop
+[1.157s] running egg_info
+[1.157s] creating mocap4r2cli.egg-info
+[1.173s] writing mocap4r2cli.egg-info/PKG-INFO
+[1.173s] writing dependency_links to mocap4r2cli.egg-info/dependency_links.txt
+[1.173s] writing entry points to mocap4r2cli.egg-info/entry_points.txt
+[1.173s] writing requirements to mocap4r2cli.egg-info/requires.txt
+[1.173s] writing top-level names to mocap4r2cli.egg-info/top_level.txt
+[1.173s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[1.205s] reading manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[1.206s] writing manifest file 'mocap4r2cli.egg-info/SOURCES.txt'
+[1.222s] running build_ext
+[1.223s] Creating /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages/mocap4r2cli.egg-link (link to .)
+[1.223s] 
+[1.223s] Installed /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli
+[1.223s] running symlink_data
+[1.223s] symbolically linking /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli/package.xml -> /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/share/mocap4r2cli
+[1.223s] creating /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/share/ament_index
+[1.223s] creating /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/share/ament_index/resource_index
+[1.224s] creating /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[1.224s] symbolically linking /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli/resource/mocap4r2cli -> /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/share/ament_index/resource_index/packages
+[1.272s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2cli/build --no-deps symlink_data

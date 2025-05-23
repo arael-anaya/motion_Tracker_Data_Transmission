@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8cb73756f0b47727d538.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rqt_mocap4r2_control",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rqt_mocap4r2_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rqt_mocap4r2_control-cb459e2e6e0e85252703.json",
+					"name" : "rqt_mocap4r2_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rqt_mocap4r2_control_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rqt_mocap4r2_control_uninstall-4ecf12c2a66e44788f95.json",
+					"name" : "rqt_mocap4r2_control_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d505074d7e86250c06b9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control",
+		"source" : "/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/rqt_mocap4r2_control"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

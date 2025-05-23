@@ -1,0 +1,678 @@
+[0.000000] (-) TimerEvent: {}
+[0.000293] (mocap4r2_control_msgs) JobQueued: {'identifier': 'mocap4r2_control_msgs', 'dependencies': OrderedDict()}
+[0.000386] (mocap4r2_marker_viz_srvs) JobQueued: {'identifier': 'mocap4r2_marker_viz_srvs', 'dependencies': OrderedDict()}
+[0.000444] (mocap4r2_msgs) JobQueued: {'identifier': 'mocap4r2_msgs', 'dependencies': OrderedDict()}
+[0.000492] (mocap4r2_robot_gt_msgs) JobQueued: {'identifier': 'mocap4r2_robot_gt_msgs', 'dependencies': OrderedDict()}
+[0.000537] (mocap4r2_control) JobQueued: {'identifier': 'mocap4r2_control', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs'})}
+[0.000590] (mocap4r2_marker_publisher) JobQueued: {'identifier': 'mocap4r2_marker_publisher', 'dependencies': OrderedDict({'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_msgs'})}
+[0.000635] (mocap4r2_marker_viz) JobQueued: {'identifier': 'mocap4r2_marker_viz', 'dependencies': OrderedDict({'mocap4r2_marker_viz_srvs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_marker_viz_srvs', 'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_msgs'})}
+[0.000681] (mocap4r2_robot_gt) JobQueued: {'identifier': 'mocap4r2_robot_gt', 'dependencies': OrderedDict({'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_msgs', 'mocap4r2_robot_gt_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_robot_gt_msgs'})}
+[0.000726] (mocap4r2cli) JobQueued: {'identifier': 'mocap4r2cli', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs'})}
+[0.000767] (mocap4r2_dummy_driver) JobQueued: {'identifier': 'mocap4r2_dummy_driver', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs', 'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_msgs', 'mocap4r2_control': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control'})}
+[0.000830] (mocap4r2_optitrack_driver) JobQueued: {'identifier': 'mocap4r2_optitrack_driver', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs', 'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_msgs', 'mocap4r2_control': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control'})}
+[0.000888] (rqt_mocap4r2_control) JobQueued: {'identifier': 'rqt_mocap4r2_control', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs', 'mocap4r2_control': '/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control'})}
+[0.000947] (mocap4r2_control_msgs) JobStarted: {'identifier': 'mocap4r2_control_msgs'}
+[0.014366] (mocap4r2_msgs) JobStarted: {'identifier': 'mocap4r2_msgs'}
+[0.021323] (mocap4r2_marker_viz_srvs) JobStarted: {'identifier': 'mocap4r2_marker_viz_srvs'}
+[0.028228] (mocap4r2_robot_gt_msgs) JobStarted: {'identifier': 'mocap4r2_robot_gt_msgs'}
+[0.037084] (mocap4r2_control_msgs) JobProgress: {'identifier': 'mocap4r2_control_msgs', 'progress': 'cmake'}
+[0.038821] (mocap4r2_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.043705] (mocap4r2_msgs) JobProgress: {'identifier': 'mocap4r2_msgs', 'progress': 'cmake'}
+[0.045420] (mocap4r2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_msgs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.048287] (mocap4r2_marker_viz_srvs) JobProgress: {'identifier': 'mocap4r2_marker_viz_srvs', 'progress': 'cmake'}
+[0.048862] (mocap4r2_marker_viz_srvs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_marker_viz_srvs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_marker_viz_srvs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_marker_viz_srvs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.056754] (mocap4r2_robot_gt_msgs) JobProgress: {'identifier': 'mocap4r2_robot_gt_msgs', 'progress': 'cmake'}
+[0.058536] (mocap4r2_robot_gt_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_robot_gt_msgs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_robot_gt_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_robot_gt_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.098077] (-) TimerEvent: {}
+[0.178209] (mocap4r2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.178960] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.179252] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.187699] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.198193] (-) TimerEvent: {}
+[0.298712] (-) TimerEvent: {}
+[0.317242] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.317708] (mocap4r2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.317899] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.324640] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.357453] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.357897] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.358293] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.363348] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398867] (-) TimerEvent: {}
+[0.499369] (-) TimerEvent: {}
+[0.585874] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.586270] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.586697] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.587006] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.599490] (-) TimerEvent: {}
+[0.608154] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.608827] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.609236] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.609561] (mocap4r2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.609835] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.610476] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.611042] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.611259] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.611433] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.611595] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.611761] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.612021] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.630722] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.632417] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.632794] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.633158] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.699683] (-) TimerEvent: {}
+[0.800312] (-) TimerEvent: {}
+[0.882797] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.883183] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.883372] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.883541] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.900425] (-) TimerEvent: {}
+[0.905396] (mocap4r2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.906204] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.906791] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.907118] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.907354] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.907509] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.907648] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.908007] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.908118] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.908207] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.908293] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.908469] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.913720] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.914273] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.914530] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.914836] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.000604] (-) TimerEvent: {}
+[1.101096] (-) TimerEvent: {}
+[1.201596] (-) TimerEvent: {}
+[1.267636] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.268430] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.268634] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.268809] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.301748] (-) TimerEvent: {}
+[1.402325] (-) TimerEvent: {}
+[1.451710] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.452378] (mocap4r2_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.452752] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.457063] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.502450] (-) TimerEvent: {}
+[1.522173] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.522511] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.522877] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.526249] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.534149] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.534705] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.536276] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.538403] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.602583] (-) TimerEvent: {}
+[1.652836] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.655545] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.655969] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.658303] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.702723] (-) TimerEvent: {}
+[1.750628] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.754607] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.755172] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.756715] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.758141] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.762362] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.762814] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.764395] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[1.793557] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.798075] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.800061] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.802858] (-) TimerEvent: {}
+[1.836113] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.841370] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.843652] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.903038] (-) TimerEvent: {}
+[2.003477] (-) TimerEvent: {}
+[2.103953] (-) TimerEvent: {}
+[2.204419] (-) TimerEvent: {}
+[2.304881] (-) TimerEvent: {}
+[2.405355] (-) TimerEvent: {}
+[2.505807] (-) TimerEvent: {}
+[2.606270] (-) TimerEvent: {}
+[2.706677] (-) TimerEvent: {}
+[2.807048] (-) TimerEvent: {}
+[2.907449] (-) TimerEvent: {}
+[3.007859] (-) TimerEvent: {}
+[3.108261] (-) TimerEvent: {}
+[3.208725] (-) TimerEvent: {}
+[3.309149] (-) TimerEvent: {}
+[3.332375] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)\n'}
+[3.338049] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)\n'}
+[3.343680] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)\n'}
+[3.349862] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.384284] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.407878] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.409282] (-) TimerEvent: {}
+[3.415472] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.509456] (-) TimerEvent: {}
+[3.609860] (-) TimerEvent: {}
+[3.710316] (-) TimerEvent: {}
+[3.810744] (-) TimerEvent: {}
+[3.911258] (-) TimerEvent: {}
+[4.011638] (-) TimerEvent: {}
+[4.112153] (-) TimerEvent: {}
+[4.212632] (-) TimerEvent: {}
+[4.313048] (-) TimerEvent: {}
+[4.413454] (-) TimerEvent: {}
+[4.444789] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.513608] (-) TimerEvent: {}
+[4.577754] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.601969] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.605744] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.613740] (-) TimerEvent: {}
+[4.714093] (-) TimerEvent: {}
+[4.814491] (-) TimerEvent: {}
+[4.914903] (-) TimerEvent: {}
+[5.015348] (-) TimerEvent: {}
+[5.115768] (-) TimerEvent: {}
+[5.216203] (-) TimerEvent: {}
+[5.316616] (-) TimerEvent: {}
+[5.417054] (-) TimerEvent: {}
+[5.517459] (-) TimerEvent: {}
+[5.617890] (-) TimerEvent: {}
+[5.718325] (-) TimerEvent: {}
+[5.818737] (-) TimerEvent: {}
+[5.888354] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.897614] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.918899] (-) TimerEvent: {}
+[6.019369] (-) TimerEvent: {}
+[6.119790] (-) TimerEvent: {}
+[6.131176] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.136824] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[6.163572] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.164118] (mocap4r2_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.169257] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[6.169890] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[6.200016] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.219969] (-) TimerEvent: {}
+[6.320387] (-) TimerEvent: {}
+[6.419496] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.420523] (-) TimerEvent: {}
+[6.447692] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.448188] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.520675] (-) TimerEvent: {}
+[6.621078] (-) TimerEvent: {}
+[6.721489] (-) TimerEvent: {}
+[6.821890] (-) TimerEvent: {}
+[6.922339] (-) TimerEvent: {}
+[6.984240] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.022489] (-) TimerEvent: {}
+[7.058610] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)\n'}
+[7.061853] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)\n'}
+[7.078133] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Configuring done (7.0s)\n'}
+[7.122643] (-) TimerEvent: {}
+[7.136033] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.139793] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.156066] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.156582] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_marker_viz_srvs\n'}
+[7.157423] (mocap4r2_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.172708] (mocap4r2_marker_viz_srvs) CommandEnded: {'returncode': 0}
+[7.173495] (mocap4r2_marker_viz_srvs) JobProgress: {'identifier': 'mocap4r2_marker_viz_srvs', 'progress': 'build'}
+[7.174534] (mocap4r2_marker_viz_srvs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_marker_viz_srvs', '--', '-j16', '-l16'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_marker_viz_srvs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_marker_viz_srvs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.222784] (-) TimerEvent: {}
+[7.233564] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[7.251203] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[7.252155] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.254228] (mocap4r2_msgs) StdoutLine: {'line': b'-- Configuring done (7.2s)\n'}
+[7.264487] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_mocap4r2_marker_viz_srvs\n'}
+[7.293023] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.308150] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs\n'}
+[7.308565] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.318807] (mocap4r2_control_msgs) CommandEnded: {'returncode': 0}
+[7.319602] (mocap4r2_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.319903] (mocap4r2_control_msgs) JobProgress: {'identifier': 'mocap4r2_control_msgs', 'progress': 'build'}
+[7.320505] (mocap4r2_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs', '--', '-j16', '-l16'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.322869] (-) TimerEvent: {}
+[7.323983] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_robot_gt_msgs\n'}
+[7.335517] (mocap4r2_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_msgs\n'}
+[7.340183] (mocap4r2_robot_gt_msgs) CommandEnded: {'returncode': 0}
+[7.340910] (mocap4r2_robot_gt_msgs) JobProgress: {'identifier': 'mocap4r2_robot_gt_msgs', 'progress': 'build'}
+[7.341605] (mocap4r2_robot_gt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_robot_gt_msgs', '--', '-j16', '-l16'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_robot_gt_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_robot_gt_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.346832] (mocap4r2_msgs) CommandEnded: {'returncode': 0}
+[7.347531] (mocap4r2_msgs) JobProgress: {'identifier': 'mocap4r2_msgs', 'progress': 'build'}
+[7.348125] (mocap4r2_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_msgs', '--', '-j16', '-l16'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84ddc7be_1230_48f7_9e6c_4177e49f617e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.392467] (mocap4r2_control_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.403804] (mocap4r2_control_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_mocap4r2_control_msgs\n'}
+[7.405288] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.416875] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_mocap4r2_robot_gt_msgs\n'}
+[7.417224] (mocap4r2_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[7.422981] (-) TimerEvent: {}
+[7.428586] (mocap4r2_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_mocap4r2_msgs\n'}
+[7.509266] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  2%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_type_description\n'}
+[7.522972] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.523253] (-) TimerEvent: {}
+[7.535384] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'running egg_info\n'}
+[7.536403] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'creating mocap4r2_marker_viz_srvs.egg-info\n'}
+[7.544007] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.558977] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'writing mocap4r2_marker_viz_srvs.egg-info/PKG-INFO\n'}
+[7.559260] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'writing dependency_links to mocap4r2_marker_viz_srvs.egg-info/dependency_links.txt\n'}
+[7.559435] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'writing top-level names to mocap4r2_marker_viz_srvs.egg-info/top_level.txt\n'}
+[7.559603] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'\n"}
+[7.623369] (-) TimerEvent: {}
+[7.625048] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b"reading manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'\n"}
+[7.625635] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_marker_viz_srvs.egg-info/SOURCES.txt'\n"}
+[7.651915] (mocap4r2_control_msgs) StdoutLine: {'line': b'[  2%] Built target mocap4r2_control_msgs__rosidl_generator_type_description\n'}
+[7.657310] (mocap4r2_control_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.658264] (mocap4r2_control_msgs) StdoutLine: {'line': b'creating mocap4r2_control_msgs.egg-info\n'}
+[7.664472] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_mocap4r2_marker_viz_srvs_egg\n'}
+[7.665545] (mocap4r2_control_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.667542] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.668398] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'creating mocap4r2_robot_gt_msgs.egg-info\n'}
+[7.677191] (mocap4r2_control_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.677472] (mocap4r2_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[7.678253] (mocap4r2_msgs) StdoutLine: {'line': b'creating mocap4r2_msgs.egg-info\n'}
+[7.680065] (mocap4r2_control_msgs) StdoutLine: {'line': b'writing mocap4r2_control_msgs.egg-info/PKG-INFO\n'}
+[7.680295] (mocap4r2_control_msgs) StdoutLine: {'line': b'writing dependency_links to mocap4r2_control_msgs.egg-info/dependency_links.txt\n'}
+[7.680462] (mocap4r2_control_msgs) StdoutLine: {'line': b'writing top-level names to mocap4r2_control_msgs.egg-info/top_level.txt\n'}
+[7.680618] (mocap4r2_control_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'\n"}
+[7.690068] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'writing mocap4r2_robot_gt_msgs.egg-info/PKG-INFO\n'}
+[7.690345] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'writing dependency_links to mocap4r2_robot_gt_msgs.egg-info/dependency_links.txt\n'}
+[7.690531] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'writing top-level names to mocap4r2_robot_gt_msgs.egg-info/top_level.txt\n'}
+[7.690700] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'\n"}
+[7.703428] (mocap4r2_msgs) StdoutLine: {'line': b'[  1%] Built target mocap4r2_msgs__rosidl_generator_type_description\n'}
+[7.704011] (mocap4r2_msgs) StdoutLine: {'line': b'writing mocap4r2_msgs.egg-info/PKG-INFO\n'}
+[7.704223] (mocap4r2_msgs) StdoutLine: {'line': b'writing dependency_links to mocap4r2_msgs.egg-info/dependency_links.txt\n'}
+[7.704410] (mocap4r2_msgs) StdoutLine: {'line': b'writing top-level names to mocap4r2_msgs.egg-info/top_level.txt\n'}
+[7.704579] (mocap4r2_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'\n"}
+[7.710025] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  2%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_type_description\n'}
+[7.720251] (mocap4r2_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.723456] (-) TimerEvent: {}
+[7.726122] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.731970] (mocap4r2_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.741451] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.747028] (mocap4r2_control_msgs) StdoutLine: {'line': b"reading manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'\n"}
+[7.747702] (mocap4r2_control_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'\n"}
+[7.767728] (mocap4r2_msgs) StdoutLine: {'line': b"reading manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'\n"}
+[7.768264] (mocap4r2_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'\n"}
+[7.780156] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b"reading manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'\n"}
+[7.780948] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b"writing manifest file 'mocap4r2_robot_gt_msgs.egg-info/SOURCES.txt'\n"}
+[7.788935] (mocap4r2_control_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_mocap4r2_control_msgs_egg\n'}
+[7.805000] (mocap4r2_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_mocap4r2_msgs_egg\n'}
+[7.823561] (-) TimerEvent: {}
+[7.831686] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg\n'}
+[7.923665] (-) TimerEvent: {}
+[7.940561] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__description.c.o\x1b[0m\n'}
+[7.940992] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__description.c.o\x1b[0m\n'}
+[7.941135] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__functions.c.o\x1b[0m\n'}
+[7.941239] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c.o\x1b[0m\n'}
+[7.941377] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__functions.c.o\x1b[0m\n'}
+[7.941496] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c.o\x1b[0m\n'}
+[8.025044] (-) TimerEvent: {}
+[8.028548] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 20%] Built target mocap4r2_marker_viz_srvs__cpp\n'}
+[8.040515] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__description.c.o\x1b[0m\n'}
+[8.040746] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__description.c.o\x1b[0m\n'}
+[8.041831] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_generator_c.so\x1b[0m\n'}
+[8.042165] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__functions.c.o\x1b[0m\n'}
+[8.042347] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.c.o\x1b[0m\n'}
+[8.042735] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__type_support.c.o\x1b[0m\n'}
+[8.042929] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__functions.c.o\x1b[0m\n'}
+[8.049462] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 20%] Built target mocap4r2_control_msgs__cpp\n'}
+[8.078239] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[  8%] Built target mocap4r2_robot_gt_msgs__cpp\n'}
+[8.084758] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 22%] Built target mocap4r2_marker_viz_srvs__rosidl_generator_c\n'}
+[8.095557] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.096686] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.096823] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.096886] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.096979] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.098752] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.099855] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_control_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.125142] (-) TimerEvent: {}
+[8.127692] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__description.c.o\x1b[0m\n'}
+[8.127919] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.c.o\x1b[0m\n'}
+[8.128031] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__functions.c.o\x1b[0m\n'}
+[8.138397] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 22%] Built target mocap4r2_control_msgs__rosidl_generator_c\n'}
+[8.154321] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.154545] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.154640] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.156229] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.159798] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.169980] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.225239] (-) TimerEvent: {}
+[8.253484] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_robot_gt_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.256719] (mocap4r2_msgs) StdoutLine: {'line': b'[  4%] Built target mocap4r2_msgs__cpp\n'}
+[8.308021] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 20%] Built target mocap4r2_robot_gt_msgs__rosidl_generator_c\n'}
+[8.325334] (-) TimerEvent: {}
+[8.333026] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.335854] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.337864] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.338545] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.342075] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.343701] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.405027] (mocap4r2_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__description.c.o\x1b[0m\n'}
+[8.412861] (mocap4r2_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__type_support.c.o\x1b[0m\n'}
+[8.414918] (mocap4r2_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__functions.c.o\x1b[0m\n'}
+[8.422090] (mocap4r2_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__functions.c.o\x1b[0m\n'}
+[8.426967] (mocap4r2_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__description.c.o\x1b[0m\n'}
+[8.427173] (-) TimerEvent: {}
+[8.433076] (mocap4r2_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__functions.c.o\x1b[0m\n'}
+[8.437972] (mocap4r2_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__type_support.c.o\x1b[0m\n'}
+[8.441981] (mocap4r2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__description.c.o\x1b[0m\n'}
+[8.442232] (mocap4r2_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c.o\x1b[0m\n'}
+[8.442346] (mocap4r2_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__description.c.o\x1b[0m\n'}
+[8.449469] (mocap4r2_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__functions.c.o\x1b[0m\n'}
+[8.491871] (mocap4r2_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__description.c.o\x1b[0m\n'}
+[8.500222] (mocap4r2_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__functions.c.o\x1b[0m\n'}
+[8.505116] (mocap4r2_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c.o\x1b[0m\n'}
+[8.505364] (mocap4r2_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c.o\x1b[0m\n'}
+[8.527275] (-) TimerEvent: {}
+[8.561980] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.568032] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/reset_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.604673] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_marker_viz_srvs/srv/reset_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.611887] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.614324] (mocap4r2_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.630980] (-) TimerEvent: {}
+[8.633250] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.639769] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.646072] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.c.o\x1b[0m\n'}
+[8.649820] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_control_msgs/msg/detail/control__type_support.c.o\x1b[0m\n'}
+[8.671001] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/control__type_support.cpp.o\x1b[0m\n'}
+[8.673054] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/mocap_info__type_support.cpp.o\x1b[0m\n'}
+[8.689011] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o\x1b[0m\n'}
+[8.697997] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/mocap_info__type_support.cpp.o\x1b[0m\n'}
+[8.708661] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_control_msgs/msg/detail/control__type_support.cpp.o\x1b[0m\n'}
+[8.709765] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.cpp.o\x1b[0m\n'}
+[8.710226] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_robot_gt_msgs/srv/set_gt_origin__type_support.cpp.o\x1b[0m\n'}
+[8.732662] (-) TimerEvent: {}
+[8.734445] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_control_msgs/msg/control__type_support.cpp.o\x1b[0m\n'}
+[8.742474] (mocap4r2_msgs) StdoutLine: {'line': b'[ 25%] Built target mocap4r2_msgs__rosidl_generator_c\n'}
+[8.742995] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_control_msgs/msg/mocap_info__type_support.cpp.o\x1b[0m\n'}
+[8.748702] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.756081] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support_c.cpp.o\x1b[0m\n'}
+[8.756427] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support_c.cpp.o\x1b[0m\n'}
+[8.759217] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support.c.o\x1b[0m\n'}
+[8.761298] (mocap4r2_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.761850] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.768538] (mocap4r2_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.774096] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support.c.o\x1b[0m\n'}
+[8.774426] (mocap4r2_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.781889] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/set_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.786055] (mocap4r2_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.794069] (mocap4r2_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.795343] (mocap4r2_msgs) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.798153] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/reset_marker_color__type_support.cpp.o\x1b[0m\n'}
+[8.814169] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/control__type_support_c.cpp.o\x1b[0m\n'}
+[8.820008] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support_c.cpp.o\x1b[0m\n'}
+[8.824033] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin__type_support.cpp.o\x1b[0m\n'}
+[8.832777] (-) TimerEvent: {}
+[8.850187] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.871750] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.877974] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.c.o\x1b[0m\n'}
+[8.878200] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 68%] Built target mocap4r2_control_msgs__rosidl_typesupport_introspection_c\n'}
+[8.885974] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.cpp.o\x1b[0m\n'}
+[8.890229] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 65%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_c\n'}
+[8.895507] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.932874] (-) TimerEvent: {}
+[8.969123] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 52%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_c\n'}
+[8.988241] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libmocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.992221] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'[ 68%] Built target mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_c\n'}
+[8.996743] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 68%] Built target mocap4r2_control_msgs__rosidl_typesupport_c\n'}
+[9.032981] (-) TimerEvent: {}
+[9.098694] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 55%] Built target mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c\n'}
+[9.115747] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_robot_gt_msgs/srv/detail/dds_fastrtps/set_gt_origin__type_support.cpp.o\x1b[0m\n'}
+[9.133090] (-) TimerEvent: {}
+[9.233417] (-) TimerEvent: {}
+[9.307634] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support_c.cpp.o\x1b[0m\n'}
+[9.333522] (-) TimerEvent: {}
+[9.428607] (mocap4r2_control_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.433627] (-) TimerEvent: {}
+[9.466137] (mocap4r2_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.466823] (mocap4r2_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.467161] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>\n'}
+[9.469702] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp'\n"}
+[9.469901] (mocap4r2_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[9.470033] (mocap4r2_msgs) StderrLine: {'line': b'             ^^^^^^\n'}
+[9.470177] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main\n'}
+[9.470298] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h'\n"}
+[9.470376] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp'\n"}
+[9.470454] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c'\n"}
+[9.470518] (mocap4r2_msgs) StderrLine: {'line': b'    generate_typesupport_fastrtps_c(args.generator_arguments_file)\n'}
+[9.470577] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h'\n"}
+[9.470636] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h'\n"}
+[9.470692] (mocap4r2_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.470749] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>\n'}
+[9.470806] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>\n'}
+[9.470866] (mocap4r2_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[9.470928] (mocap4r2_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[9.471000] (mocap4r2_msgs) StderrLine: {'line': b'             ^^^^^^\n'}
+[9.471057] (mocap4r2_msgs) StderrLine: {'line': b'             ^^^^^^\n'}
+[9.471113] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main\n'}
+[9.471169] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main\n'}
+[9.471225] (mocap4r2_control_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so'\n"}
+[9.475158] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/build.make:131: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/set_marker_color__type_support_c.cpp.o] Interrupt\n'}
+[9.475262] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/build.make:123: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_marker_viz_srvs/srv/set_marker_color__type_support.cpp.o] Interrupt\n'}
+[9.475341] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/build.make:145: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_marker_viz_srvs/srv/detail/reset_marker_color__type_support_c.cpp.o] Interrupt\n'}
+[9.475406] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:162: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o] Interrupt\n'}
+[9.475495] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:176: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/mocap_info__type_support.cpp.o] Interrupt\n'}
+[9.475555] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:426: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[9.475614] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[9.475669] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.475724] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[9.475782] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[9.475840] (mocap4r2_msgs) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file, args.typesupports)\n'}
+[9.475905] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp\n'}
+[9.475978] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:399: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[9.476044] (mocap4r2_msgs) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[9.476101] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c\n'}
+[9.476158] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c'\n"}
+[9.476215] (mocap4r2_msgs) StderrLine: {'line': b'    return generate_files(\n'}
+[9.476273] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp\n'}
+[9.476329] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^\n'}
+[9.476383] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h'\n"}
+[9.476443] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 102, in generate_files\n'}
+[9.476497] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c'\n"}
+[9.476551] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c'\n"}
+[9.476769] (mocap4r2_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[9.476837] (mocap4r2_msgs) StderrLine: {'line': b'               ^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.476895] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[9.476986] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h'\n"}
+[9.477053] (mocap4r2_msgs) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c'\n"}
+[9.477110] (mocap4r2_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[9.477167] (mocap4r2_msgs) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.477223] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 73, in parse_idl_string\n'}
+[9.477279] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:171: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c] Interrupt\n'}
+[9.477337] (mocap4r2_msgs) StderrLine: {'line': b'    content = extract_content_from_ast(tree)\n'}
+[9.477395] (mocap4r2_msgs) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.477453] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 146, in extract_content_from_ast\n'}
+[9.477512] (mocap4r2_msgs) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[9.477570] (mocap4r2_msgs) StderrLine: {'line': b'    add_message_members(msg, struct_defs[0])\n'}
+[9.477627] (mocap4r2_msgs) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[9.477685] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 362, in add_message_members\n'}
+[9.477751] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.477809] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 102, in generate_files\n'}
+[9.477873] (mocap4r2_msgs) StderrLine: {'line': b'    for member in members:\n'}
+[9.477942] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/tree.py", line 175, in <lambda>\n'}
+[9.478010] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/build.make:154: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/control__type_support.cpp.o] Interrupt\n'}
+[9.478086] (mocap4r2_msgs) StderrLine: {'line': b'    idl_file = parse_idl_file(locator)\n'}
+[9.478145] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/build.make:131: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/set_marker_color__type_support.cpp.o] Interrupt\n'}
+[9.478215] (mocap4r2_msgs) StderrLine: {'line': b'               ^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.478274] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.478332] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file\n'}
+[9.478389] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 117, in generate_files\n'}
+[9.478448] (mocap4r2_msgs) StderrLine: {'line': b'    content = parse_idl_string(string, png_file=png_file)\n'}
+[9.478507] (mocap4r2_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[9.478573] (mocap4r2_msgs) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.478635] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 193, in expand_template\n'}
+[9.478694] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string\n'}
+[9.478748] (mocap4r2_msgs) StderrLine: {'line': b'    tree = get_ast_from_idl_string(idl_string)\n'}
+[9.478802] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[9.478857] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/build.make:151: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin__type_support.cpp.o] Interrupt\n'}
+[9.478947] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:426: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[9.479018] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.479080] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string\n'}
+[9.479140] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[9.479195] (mocap4r2_msgs) StderrLine: {'line': b'    return _parser.parse(idl_string)\n'}
+[9.479249] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.479302] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lark.py", line 658, in parse\n'}
+[9.479356] (mocap4r2_msgs) StderrLine: {'line': b'    return self.find_pred(lambda t: t.data == data)\n'}
+[9.479408] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:156: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h] Interrupt\n'}
+[9.479465] (mocap4r2_msgs) StderrLine: {'line': b'                                    ^^^^^^^^^^^^^^\n'}
+[9.479519] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 265, in __eq__\n'}
+[9.479571] (mocap4r2_msgs) StderrLine: {'line': b'    def __eq__(self, other):\n'}
+[9.479624] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[9.479802] (mocap4r2_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[9.479869] (mocap4r2_msgs) StderrLine: {'line': b'    return self.parser.parse(text, start=start, on_error=on_error)\n'}
+[9.479942] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.480011] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 104, in parse\n'}
+[9.480072] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/build.make:145: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_marker_viz_srvs/srv/detail/dds_fastrtps/reset_marker_color__type_support.cpp.o] Interrupt\n'}
+[9.480143] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:210: libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so] Interrupt\n'}
+[9.480243] (mocap4r2_msgs) StderrLine: {'line': b'    return self.parser.parse(stream, chosen_start, **kw)\n'}
+[9.480309] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.480369] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 284, in parse\n'}
+[9.480482] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:372: CMakeFiles/mocap4r2_marker_viz_srvs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[9.480555] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:372: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[9.480618] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:399: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[9.480675] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:176: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support_c.cpp.o] Interrupt\n'}
+[9.480737] (mocap4r2_msgs) StderrLine: {'line': b'    solutions = [n.node for n in columns[-1] if n.is_complete and n.node is not None and n.s == start_symbol and n.start == 0]\n'}
+[9.480796] (mocap4r2_msgs) StderrLine: {'line': b'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.480857] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/lark/utils.py", line 351, in __iter__\n'}
+[9.480915] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:177: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c] Interrupt\n'}
+[9.481166] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[9.481233] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.481290] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[9.481344] (mocap4r2_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.481398] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>\n'}
+[9.481456] (mocap4r2_msgs) StderrLine: {'line': b'    sys.exit(main())\n'}
+[9.481509] (mocap4r2_msgs) StderrLine: {'line': b'             ^^^^^^\n'}
+[9.481563] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main\n'}
+[9.481618] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/all] Error 2\n'}
+[9.481672] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[1]: *** wait: No child processes.  Stop.\n'}
+[9.481729] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[9.481782] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake[1]: *** wait: No child processes.  Stop.\n'}
+[9.481838] (mocap4r2_control_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.481894] (mocap4r2_msgs) StderrLine: {'line': b'    generate_cpp(args.generator_arguments_file)\n'}
+[9.481963] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp\n'}
+[9.482026] (mocap4r2_msgs) StderrLine: {'line': b'    def __iter__(self) -> Iterator[T]:\n'}
+[9.482083] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[9.482140] (mocap4r2_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[9.482196] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:174: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c] Interrupt\n'}
+[9.482260] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/build.make:276: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/depend] Interrupt\n'}
+[9.482318] (mocap4r2_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/all] Interrupt\n'}
+[9.482391] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake: *** wait: No child processes.  Stop.\n'}
+[9.482465] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake: *** Waiting for unfinished jobs....\n'}
+[9.482550] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'gmake: *** wait: No child processes.  Stop.\n'}
+[9.482602] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[9.482655] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[9.482701] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[9.482746] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:372: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[9.482928] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:156: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.cpp.o] Interrupt\n'}
+[9.483798] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:399: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[9.483865] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:156: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support_c.cpp.o] Interrupt\n'}
+[9.483999] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[9.484080] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[9.484156] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:165: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c] Interrupt\n'}
+[9.484291] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:168: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c] Interrupt\n'}
+[9.484340] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:162: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h] Interrupt\n'}
+[9.484386] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:153: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h] Interrupt\n'}
+[9.484429] (mocap4r2_msgs) StderrLine: {'line': b'    return generate_files(generator_arguments_file, mapping)\n'}
+[9.484470] (mocap4r2_msgs) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.484512] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 117, in generate_files\n'}
+[9.484554] (mocap4r2_msgs) StderrLine: {'line': b'    expand_template(\n'}
+[9.484595] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 193, in expand_template\n'}
+[9.484635] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.string(template_content, template_path, locals=data)\n'}
+[9.484675] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[9.484715] (mocap4r2_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[9.484801] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[9.484844] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:159: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h] Interrupt\n'}
+[9.484885] (mocap4r2_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[9.484931] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[9.484987] (mocap4r2_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt\n'}
+[9.485028] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[9.485069] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[9.485110] (mocap4r2_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[9.485151] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[9.485192] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[9.485232] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[9.485273] (mocap4r2_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[9.485313] (mocap4r2_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[9.485352] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[9.485392] (mocap4r2_msgs) StderrLine: {'line': b'  File "<string>", line 10, in <module>\n'}
+[9.485433] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 245, in _expand_template\n'}
+[9.485476] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.string(content, template_path, locals=kwargs)\n'}
+[9.485516] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[9.485568] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[9.485609] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[9.485649] (mocap4r2_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[9.485689] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[9.485729] (mocap4r2_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[9.485769] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[9.485810] (mocap4r2_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[9.485850] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[9.485890] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[9.485999] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[9.486057] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[9.486099] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run\n'}
+[9.486141] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[9.486182] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[9.486222] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.execute(self.code, locals)\n'}
+[9.486262] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute\n'}
+[9.486301] (mocap4r2_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[9.486342] (mocap4r2_msgs) StderrLine: {'line': b'  File "<string>", line 2, in <module>\n'}
+[9.486394] (mocap4r2_msgs) StderrLine: {'line': b'  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 245, in _expand_template\n'}
+[9.486446] (mocap4r2_msgs) StderrLine: {'line': b'    interpreter.string(content, template_path, locals=kwargs)\n'}
+[9.486494] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string\n'}
+[9.486538] (mocap4r2_msgs) StderrLine: {'line': b'    _exec(statements, self.globals, locals)\n'}
+[9.486581] (mocap4r2_msgs) StderrLine: {'line': b'  File "<string>", line 0, in <module>\n'}
+[9.486622] (mocap4r2_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[9.486662] (mocap4r2_msgs) StderrLine: {'line': b'    self.safe(scanner, True, locals)\n'}
+[9.486703] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe\n'}
+[9.486743] (mocap4r2_msgs) StderrLine: {'line': b'    self.parse(scanner, locals)\n'}
+[9.486784] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse\n'}
+[9.486826] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(self, locals)\n'}
+[9.486867] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run\n'}
+[9.486907] (mocap4r2_msgs) StderrLine: {'line': b'    self.subrun(info[0][1], interpreter, locals)\n'}
+[9.486964] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[9.487014] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[9.487063] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1531, in run\n'}
+[9.487105] (mocap4r2_msgs) StderrLine: {'line': b'    self.subrun(elseTokens, interpreter, locals)\n'}
+[9.487146] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun\n'}
+[9.487186] (mocap4r2_msgs) StderrLine: {'line': b'    token.run(interpreter, locals)\n'}
+[9.487226] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 1333, in run\n'}
+[9.487266] (mocap4r2_msgs) StderrLine: {'line': b'    result = interpreter.evaluate(self.testCode, locals)\n'}
+[9.487306] (mocap4r2_msgs) StderrLine: {'line': b'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[9.487345] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2564, in evaluate\n'}
+[9.487384] (mocap4r2_msgs) StderrLine: {'line': b'    def evaluate(self, expression, locals=None):\n'}
+[9.487424] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[9.487463] (mocap4r2_msgs) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[9.487504] (mocap4r2_marker_viz_srvs) CommandEnded: {'returncode': -2}
+[9.492092] (mocap4r2_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x724dae807380>\n'}
+[9.492689] (mocap4r2_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.492758] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[9.492809] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[9.492855] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[9.492904] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[9.492984] (mocap4r2_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[9.493034] (mocap4r2_msgs) StderrLine: {'line': b'Exception ignored in: <function Interpreter.__del__ at 0x780ae3007380>\n'}
+[9.493079] (mocap4r2_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.493596] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__\n'}
+[9.493689] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown\n'}
+[9.493796] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize\n'}
+[9.493887] (mocap4r2_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push\n'}
+[9.494024] (mocap4r2_msgs) StderrLine: {'line': b"AttributeError: '_io.TextIOWrapper' object has no attribute 'push'\n"}
+[9.496034] (mocap4r2_marker_viz_srvs) JobEnded: {'identifier': 'mocap4r2_marker_viz_srvs', 'rc': 'SIGINT'}
+[9.496489] (mocap4r2_control_msgs) JobEnded: {'identifier': 'mocap4r2_control_msgs', 'rc': 'SIGINT'}
+[9.496789] (mocap4r2_robot_gt_msgs) JobEnded: {'identifier': 'mocap4r2_robot_gt_msgs', 'rc': 'SIGINT'}
+[9.500416] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:150: rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp] Interrupt\n'}
+[9.500799] (mocap4r2_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:398: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt\n'}
+[9.501647] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:150: rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h] Interrupt\n'}
+[9.502017] (mocap4r2_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt\n'}
+[9.502785] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:150: rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp] Interrupt\n'}
+[9.502945] (mocap4r2_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:371: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt\n'}
+[9.504024] (mocap4r2_msgs) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/build.make:148: rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp] Interrupt\n'}
+[9.504137] (mocap4r2_msgs) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/all] Interrupt\n'}
+[9.504457] (mocap4r2_msgs) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[9.506589] (mocap4r2_msgs) JobEnded: {'identifier': 'mocap4r2_msgs', 'rc': 'SIGINT'}
+[9.517393] (mocap4r2_control) JobSkipped: {'identifier': 'mocap4r2_control'}
+[9.517486] (mocap4r2_marker_publisher) JobSkipped: {'identifier': 'mocap4r2_marker_publisher'}
+[9.517522] (mocap4r2_marker_viz) JobSkipped: {'identifier': 'mocap4r2_marker_viz'}
+[9.517549] (mocap4r2_robot_gt) JobSkipped: {'identifier': 'mocap4r2_robot_gt'}
+[9.517577] (mocap4r2cli) JobSkipped: {'identifier': 'mocap4r2cli'}
+[9.517604] (mocap4r2_dummy_driver) JobSkipped: {'identifier': 'mocap4r2_dummy_driver'}
+[9.517629] (mocap4r2_optitrack_driver) JobSkipped: {'identifier': 'mocap4r2_optitrack_driver'}
+[9.517655] (rqt_mocap4r2_control) JobSkipped: {'identifier': 'rqt_mocap4r2_control'}
+[9.517681] (-) EventReactorShutdown: {}

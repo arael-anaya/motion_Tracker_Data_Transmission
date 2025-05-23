@@ -1,0 +1,11 @@
+gmake[2]: *** [CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/build.make:151: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_robot_gt_msgs/srv/set_gt_origin__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:426: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:372: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:156: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:399: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:156: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_robot_gt_msgs/srv/detail/set_gt_origin__type_support_c.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

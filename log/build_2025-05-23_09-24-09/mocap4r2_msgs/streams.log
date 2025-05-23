@@ -1,0 +1,306 @@
+[0.009s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs
+[0.027s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.142s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.212s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.254s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.262s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.367s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.382s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.398s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.916s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.850s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.852s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.963s] -- Found PythonExtra: /usr/bin/python3  
+[2.322s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.383s] -- Configuring done (2.4s)
+[2.422s] -- Generating done (0.0s)
+[2.432s] -- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs
+[2.439s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs
+[2.440s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs -- -j16 -l16
+[2.482s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.490s] [  1%] Built target ament_cmake_python_symlink_mocap4r2_msgs
+[2.669s] running egg_info
+[2.670s] creating mocap4r2_msgs.egg-info
+[2.687s] writing mocap4r2_msgs.egg-info/PKG-INFO
+[2.687s] writing dependency_links to mocap4r2_msgs.egg-info/dependency_links.txt
+[2.687s] writing top-level names to mocap4r2_msgs.egg-info/top_level.txt
+[2.688s] writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[2.709s] [  1%] Built target mocap4r2_msgs__rosidl_generator_type_description
+[2.723s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.731s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.742s] reading manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[2.743s] writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[2.781s] [  4%] Built target ament_cmake_python_build_mocap4r2_msgs_egg
+[3.144s] [  4%] Built target mocap4r2_msgs__cpp
+[3.362s] [  5%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__description.c.o[0m
+[3.364s] [  6%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__functions.c.o[0m
+[3.365s] [  8%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/marker__type_support.c.o[0m
+[3.368s] [  9%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__description.c.o[0m
+[3.369s] [ 10%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__functions.c.o[0m
+[3.369s] [ 12%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/markers__type_support.c.o[0m
+[3.373s] [ 13%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__description.c.o[0m
+[3.378s] [ 14%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__description.c.o[0m
+[3.383s] [ 16%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c.o[0m
+[3.383s] [ 17%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/imus_info__functions.c.o[0m
+[3.387s] [ 18%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__functions.c.o[0m
+[3.394s] [ 20%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c.o[0m
+[3.406s] [ 21%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__functions.c.o[0m
+[3.406s] [ 22%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__description.c.o[0m
+[3.406s] [ 24%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c.o[0m
+[3.569s] [ 25%] [32m[1mLinking C shared library libmocap4r2_msgs__rosidl_generator_c.so[0m
+[3.672s] [ 25%] Built target mocap4r2_msgs__rosidl_generator_c
+[3.690s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.691s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.706s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.720s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.722s] [ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.722s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.272s] [ 35%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/marker__type_support.cpp.o[0m
+[4.287s] [ 36%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/imus_info__type_support.cpp.o[0m
+[4.287s] [ 37%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/markers__type_support.cpp.o[0m
+[4.288s] [ 39%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/rigid_body__type_support.cpp.o[0m
+[4.296s] [ 40%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_msgs/msg/rigid_bodies__type_support.cpp.o[0m
+[4.324s] [ 41%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/markers__type_support.cpp.o[0m
+[4.330s] [ 43%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/imus_info__type_support.cpp.o[0m
+[4.334s] [ 44%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp.o[0m
+[4.335s] [ 45%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/rigid_bodies__type_support.cpp.o[0m
+[4.344s] [ 47%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_msgs/msg/rigid_body__type_support.cpp.o[0m
+[4.445s] [ 48%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_c.so[0m
+[4.472s] [ 50%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c.o[0m
+[4.484s] [ 51%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c.o[0m
+[4.496s] [ 52%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c.o[0m
+[4.500s] [ 54%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c.o[0m
+[4.505s] [ 55%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c.o[0m
+[4.586s] [ 55%] Built target mocap4r2_msgs__rosidl_typesupport_c
+[4.647s] [ 56%] [32m[1mLinking C shared library libmocap4r2_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.762s] [ 56%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c
+[4.826s] [ 58%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[4.827s] [ 59%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/markers__type_support_c.cpp.o[0m
+[4.831s] [ 60%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/imus_info__type_support_c.cpp.o[0m
+[4.832s] [ 62%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/rigid_body__type_support_c.cpp.o[0m
+[4.847s] [ 63%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support_c.cpp.o[0m
+[4.881s] [ 64%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__type_support.cpp.o[0m
+[4.889s] [ 66%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/imus_info__type_support.cpp.o[0m
+[4.901s] [ 67%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.cpp.o[0m
+[4.901s] [ 68%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/rigid_body__type_support.cpp.o[0m
+[4.903s] [ 70%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/markers__type_support.cpp.o[0m
+[4.920s] [ 71%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[4.971s] [ 72%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o[0m
+[5.138s] [ 74%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/imus_info__type_support.cpp.o[0m
+[5.179s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/rigid_body__type_support.cpp.o[0m
+[5.200s] [ 77%] [32mBuilding CXX object CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/rigid_bodies__type_support.cpp.o[0m
+[5.240s] [ 78%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_cpp.so[0m
+[5.323s] [ 78%] Built target mocap4r2_msgs__rosidl_typesupport_cpp
+[5.616s] [ 79%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[5.702s] [ 79%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_cpp
+[5.727s] [ 81%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.802s] [ 81%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c
+[5.863s] [ 82%] [32m[1mLinking CXX shared library libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.933s] [ 82%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp
+[5.955s] [ 82%] Built target mocap4r2_msgs
+[5.977s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.422s] [ 83%] Built target mocap4r2_msgs__py
+[6.442s] [ 86%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_marker_s.c.o[0m
+[6.442s] [ 87%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_imus_info_s.c.o[0m
+[6.442s] [ 87%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_markers_s.c.o[0m
+[6.442s] [ 90%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_body_s.c.o[0m
+[6.442s] [ 90%] [32mBuilding C object CMakeFiles/mocap4r2_msgs__rosidl_generator_py.dir/rosidl_generator_py/mocap4r2_msgs/msg/_rigid_bodies_s.c.o[0m
+[6.558s] [ 91%] [32m[1mLinking C shared library libmocap4r2_msgs__rosidl_generator_py.so[0m
+[6.598s] [ 91%] Built target mocap4r2_msgs__rosidl_generator_py
+[6.614s] [ 94%] [32mBuilding C object CMakeFiles/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.614s] [ 94%] [32mBuilding C object CMakeFiles/mocap4r2_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.614s] [ 95%] [32mBuilding C object CMakeFiles/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.709s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[6.709s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.so[0m
+[6.711s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.738s] [100%] Built target mocap4r2_msgs_s__rosidl_typesupport_c
+[6.738s] [100%] Built target mocap4r2_msgs_s__rosidl_typesupport_introspection_c
+[6.740s] [100%] Built target mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c
+[6.754s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs -- -j16 -l16
+[6.755s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs
+[6.761s] -- Install configuration: ""
+[6.762s] -- Execute custom install script
+[6.762s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_msgs
+[6.769s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.json
+[6.777s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.json
+[6.784s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.json
+[6.792s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.json
+[6.800s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.json
+[6.810s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__functions.h
+[6.817s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.h
+[6.826s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__type_support.h
+[6.834s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__functions.h
+[6.842s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.h
+[6.850s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.h
+[6.858s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__functions.h
+[6.866s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.h
+[6.874s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.h
+[6.881s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__functions.h
+[6.889s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.h
+[6.896s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.h
+[6.904s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__functions.h
+[6.911s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.h
+[6.919s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.h
+[6.928s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.h
+[6.936s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.h
+[6.944s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.h
+[6.951s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.h
+[6.958s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.h
+[6.967s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.975s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.sh
+[6.982s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.dsv
+[6.991s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_c.h
+[6.999s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[7.007s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+[7.015s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_c.h
+[7.023s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h
+[7.032s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.040s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h
+[7.050s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[7.059s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h
+[7.067s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h
+[7.076s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h
+[7.084s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.094s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__builder.hpp
+[7.103s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.hpp
+[7.111s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__traits.hpp
+[7.120s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__type_support.hpp
+[7.128s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__builder.hpp
+[7.136s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.hpp
+[7.143s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__traits.hpp
+[7.152s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.hpp
+[7.161s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__builder.hpp
+[7.169s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.hpp
+[7.177s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__traits.hpp
+[7.185s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.hpp
+[7.193s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__builder.hpp
+[7.201s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.hpp
+[7.209s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__traits.hpp
+[7.217s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.hpp
+[7.225s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__builder.hpp
+[7.232s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.hpp
+[7.240s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__traits.hpp
+[7.247s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.hpp
+[7.255s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.hpp
+[7.264s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.hpp
+[7.272s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.hpp
+[7.280s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.hpp
+[7.289s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.hpp
+[7.298s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.307s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_cpp.hpp
+[7.316s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[7.324s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+[7.332s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_cpp.hpp
+[7.341s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp
+[7.351s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.360s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_cpp.hpp
+[7.369s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[7.378s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+[7.386s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_cpp.hpp
+[7.394s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp
+[7.401s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.sh
+[7.410s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.dsv
+[7.418s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/PKG-INFO
+[7.427s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/SOURCES.txt
+[7.435s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/dependency_links.txt
+[7.443s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/top_level.txt
+[7.452s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/__init__.py
+[7.461s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c
+[7.469s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.479s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.487s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.so
+[7.494s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.502s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.so
+[7.511s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/__init__.py
+[7.518s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_imus_info.py
+[7.526s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_imus_info_s.c
+[7.534s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_marker.py
+[7.543s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_marker_s.c
+[7.551s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_markers.py
+[7.560s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_markers_s.c
+[7.568s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_bodies.py
+[7.576s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_bodies_s.c
+[7.586s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_body.py
+[7.595s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_body_s.c
+[7.604s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[7.604s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.so
+[7.605s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.so
+[7.605s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.idl
+[7.613s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.idl
+[7.622s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.idl
+[7.631s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.idl
+[7.639s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.idl
+[7.647s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.msg
+[7.655s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.msg
+[7.664s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.msg
+[7.672s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.msg
+[7.680s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.msg
+[7.689s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/mocap4r2_bridge_mapping_rule.yaml
+[7.698s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_msgs
+[7.706s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_msgs
+[7.716s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.sh
+[7.724s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.dsv
+[7.733s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.sh
+[7.742s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.dsv
+[7.751s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.bash
+[7.759s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.sh
+[7.768s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.zsh
+[7.778s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.dsv
+[7.786s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv
+[7.795s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/packages/mocap4r2_msgs
+[7.805s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake-extras.cmake
+[7.814s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.822s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.832s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.841s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.851s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.860s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.868s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig.cmake
+[7.876s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig-version.cmake
+[7.885s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.xml
+[7.893s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so
+[7.894s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so" to ""
+[7.894s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so
+[7.894s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.894s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so
+[7.895s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.895s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so
+[7.895s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so" to ""
+[7.895s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.895s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.895s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so
+[7.896s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.896s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so
+[7.896s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so" to ""
+[7.929s] Listing '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs'...
+[7.929s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/__init__.py'...
+[7.929s] Listing '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg'...
+[7.929s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/__init__.py'...
+[7.929s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_imus_info.py'...
+[7.930s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_marker.py'...
+[7.930s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_markers.py'...
+[7.930s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_bodies.py'...
+[7.930s] Compiling '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_body.py'...
+[7.935s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so
+[7.936s] -- Set non-toolchain portion of runtime path of "/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so" to ""
+[7.936s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport.cmake
+[7.936s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.936s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.936s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.936s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.936s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cppExport.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.937s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.938s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport.cmake
+[7.938s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.938s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport.cmake
+[7.938s] -- Installing: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.940s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs

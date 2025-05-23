@@ -1,0 +1,103 @@
+[0.007s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.103s] -- The CXX compiler identification is GNU 13.3.0
+[0.119s] -- Detecting C compiler ABI info
+[0.198s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.492s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.515s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.545s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.555s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.580s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.739s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.757s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.857s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.889s] -- Found mocap4r2_control_msgs: 0.0.7 (/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/share/mocap4r2_control_msgs/cmake)
+[0.937s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.037s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.040s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.118s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.119s] -- Found Threads: TRUE  
+[1.127s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.129s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.130s] -- Configured cppcheck include dirs: /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control/include
+[1.130s] -- Configured cppcheck exclude dirs and/or files: 
+[1.131s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.131s] -- Configured cpplint exclude dirs and/or files: 
+[1.132s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.132s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.133s] -- Added test 'lint_cmake' to check CMake code style
+[1.134s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.135s] -- Added test 'uncrustify' to check C / C++ code style
+[1.135s] -- Configured uncrustify additional arguments: 
+[1.136s] -- Added test 'xmllint' to check XML markup files
+[1.139s] -- Configuring done (1.1s)
+[1.164s] -- Generating done (0.0s)
+[1.171s] -- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control
+[1.184s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control
+[1.185s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control -- -j16 -l16
+[1.231s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControlledLifecycleNode.cpp.o[0m
+[1.231s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.231s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.231s] [ 28%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/ControllerNode.cpp.o[0m
+[1.231s] [ 35%] [32mBuilding CXX object CMakeFiles/mocap4r2_control.dir/src/mocap4r2_control/AuxiliarNode.cpp.o[0m
+[1.828s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.864s] [ 42%] Built target gtest_main
+[4.242s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.307s] [ 50%] Built target gtest
+[8.751s] [ 57%] [32m[1mLinking CXX shared library libmocap4r2_control.so[0m
+[9.065s] [ 57%] Built target mocap4r2_control
+[9.083s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_auxiliar.dir/test_auxiliar.cpp.o[0m
+[9.083s] [ 78%] [32mBuilding CXX object test/CMakeFiles/test_control.dir/test_control.cpp.o[0m
+[9.083s] [ 78%] [32mBuilding CXX object CMakeFiles/auxiliar_main.dir/src/auxiliar_main.cpp.o[0m
+[11.562s] [ 85%] [32m[1mLinking CXX executable auxiliar_main[0m
+[11.746s] [ 85%] Built target auxiliar_main
+[15.525s] [ 92%] [32m[1mLinking CXX executable test_auxiliar[0m
+[15.855s] [ 92%] Built target test_auxiliar
+[16.332s] [100%] [32m[1mLinking CXX executable test_control[0m
+[16.652s] [100%] Built target test_control
+[16.664s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control -- -j16 -l16
+[16.666s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control
+[16.672s] -- Install configuration: ""
+[16.673s] -- Execute custom install script
+[16.673s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/include//mocap4r2_control/AuxiliarNode.hpp
+[16.682s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControlledLifecycleNode.hpp
+[16.691s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/include//mocap4r2_control/ControllerNode.hpp
+[16.699s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/config/config_example.yaml
+[16.707s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/launch/auxiliar.launch.py
+[16.715s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib/libmocap4r2_control.so
+[16.724s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib/mocap4r2_control/auxiliar_main
+[16.732s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.sh
+[16.740s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/library_path.dsv
+[16.749s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/package_run_dependencies/mocap4r2_control
+[16.757s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/parent_prefix_path/mocap4r2_control
+[16.765s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.sh
+[16.773s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/ament_prefix_path.dsv
+[16.782s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.sh
+[16.790s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/environment/path.dsv
+[16.799s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.bash
+[16.808s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.sh
+[16.816s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.zsh
+[16.823s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/local_setup.dsv
+[16.832s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.dsv
+[16.840s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/ament_index/resource_index/packages/mocap4r2_control
+[16.849s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.857s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[16.865s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.873s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig.cmake
+[16.881s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake/mocap4r2_controlConfig-version.cmake
+[16.890s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/package.xml
+[16.901s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control

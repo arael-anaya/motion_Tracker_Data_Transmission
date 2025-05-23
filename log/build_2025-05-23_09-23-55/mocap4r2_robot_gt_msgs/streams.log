@@ -1,0 +1,48 @@
+[0.009s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_robot_gt_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_robot_gt_msgs
+[0.051s] -- The C compiler identification is GNU 13.3.0
+[0.095s] -- The CXX compiler identification is GNU 13.3.0
+[0.108s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.185s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.281s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.282s] -- Detecting CXX compile features - done
+[0.289s] [33mCMake Warning at CMakeLists.txt:4 (find_package):
+[0.289s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.289s]   has asked CMake to find a package configuration file provided by
+[0.289s]   "ament_cmake", but CMake did not find one.
+[0.289s] 
+[0.290s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.290s]   any of the following names:
+[0.290s] 
+[0.290s]     ament_cmakeConfig.cmake
+[0.290s]     ament_cmake-config.cmake
+[0.290s] 
+[0.290s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.290s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.290s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.290s]   has been installed.
+[0.290s] 
+[0.290s] [0m
+[0.296s] [31mCMake Error at CMakeLists.txt:5 (find_package):
+[0.296s]   By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH
+[0.296s]   this project has asked CMake to find a package configuration file provided
+[0.296s]   by "rosidl_default_generators", but CMake did not find one.
+[0.296s] 
+[0.297s]   Could not find a package configuration file provided by
+[0.297s]   "rosidl_default_generators" with any of the following names:
+[0.297s] 
+[0.297s]     rosidl_default_generatorsConfig.cmake
+[0.297s]     rosidl_default_generators-config.cmake
+[0.297s] 
+[0.297s]   Add the installation prefix of "rosidl_default_generators" to
+[0.297s]   CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory
+[0.297s]   containing one of the above files.  If "rosidl_default_generators" provides
+[0.297s]   a separate development package or SDK, be sure it has been installed.
+[0.298s] 
+[0.298s] [0m
+[0.298s] -- Configuring incomplete, errors occurred!

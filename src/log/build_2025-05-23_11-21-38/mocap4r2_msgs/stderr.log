@@ -1,0 +1,199 @@
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+gmake[2]: *** Deleting file 'rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp'
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h'
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp'
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c'
+    generate_typesupport_fastrtps_c(args.generator_arguments_file)
+gmake[2]: *** Deleting file 'rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h'
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h'
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 28, in <module>
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+    sys.exit(main())
+    sys.exit(main())
+             ^^^^^^
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp", line 24, in main
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+    generate_cpp(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_cpp/__init__.py", line 28, in generate_cpp
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c'
+    return generate_files(
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+           ^^^^^^^^^^^^^^^
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h'
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 102, in generate_files
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c'
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c'
+    idl_file = parse_idl_file(locator)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h'
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c'
+    content = parse_idl_string(string, png_file=png_file)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 73, in parse_idl_string
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:171: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__type_support.c] Interrupt
+    content = extract_content_from_ast(tree)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 146, in extract_content_from_ast
+    return generate_files(generator_arguments_file, mapping)
+    add_message_members(msg, struct_defs[0])
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 362, in add_message_members
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 102, in generate_files
+    for member in members:
+  File "/usr/lib/python3/dist-packages/lark/tree.py", line 175, in <lambda>
+    idl_file = parse_idl_file(locator)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 117, in generate_files
+    content = parse_idl_string(string, png_file=png_file)
+    expand_template(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 193, in expand_template
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+    interpreter.string(template_content, template_path, locals=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    return _parser.parse(idl_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 658, in parse
+    return self.find_pred(lambda t: t.data == data)
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:156: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h] Interrupt
+                                    ^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/lexer.py", line 265, in __eq__
+    def __eq__(self, other):
+
+KeyboardInterrupt
+    return self.parser.parse(text, start=start, on_error=on_error)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 104, in parse
+    return self.parser.parse(stream, chosen_start, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 284, in parse
+    solutions = [n.node for n in columns[-1] if n.is_complete and n.node is not None and n.s == start_symbol and n.start == 0]
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/lark/utils.py", line 351, in __iter__
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:177: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.c] Interrupt
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 23, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp", line 19, in main
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py", line 24, in generate_cpp
+    def __iter__(self) -> Iterator[T]:
+
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:174: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__type_support.c] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/build.make:276: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:318: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:165: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/marker__type_support.c] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:168: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__type_support.c] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:162: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:153: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h] Interrupt
+    return generate_files(generator_arguments_file, mapping)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 117, in generate_files
+    expand_template(
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 193, in expand_template
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/build.make:159: rosidl_typesupport_introspection_c/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h] Interrupt
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+gmake[1]: *** [CMakeFiles/Makefile2:292: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_c.dir/all] Interrupt
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    self.parse(scanner, locals)
+    _exec(statements, self.globals, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+  File "<string>", line 10, in <module>
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 245, in _expand_template
+    interpreter.string(content, template_path, locals=kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 245, in _expand_template
+    interpreter.string(content, template_path, locals=kwargs)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    _exec(statements, self.globals, locals)
+  File "<string>", line 0, in <module>
+KeyboardInterrupt
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1531, in run
+    self.subrun(elseTokens, interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1333, in run
+    result = interpreter.evaluate(self.testCode, locals)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/em.py", line 2564, in evaluate
+    def evaluate(self, expression, locals=None):
+
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0x724dae807380>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+Exception ignored in: <function Interpreter.__del__ at 0x780ae3007380>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:150: rosidl_typesupport_introspection_cpp/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:398: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:150: rosidl_typesupport_fastrtps_c/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:266: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:150: rosidl_typesupport_fastrtps_cpp/mocap4r2_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:371: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/build.make:148: rosidl_typesupport_cpp/mocap4r2_msgs/msg/marker__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:425: CMakeFiles/mocap4r2_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

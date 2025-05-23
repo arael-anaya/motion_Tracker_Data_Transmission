@@ -1,0 +1,11 @@
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/uninstall.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/mocap4r2_marker_viz_uninstall.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/mocap4r2_marker_viz.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/mocap4r2_marker_viz_NODE.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/test.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/edit_cache.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/rebuild_cache.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/list_install_components.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/install.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/install/local.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz/CMakeFiles/install/strip.dir

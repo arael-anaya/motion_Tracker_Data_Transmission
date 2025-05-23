@@ -1,0 +1,77 @@
+[0.009s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.101s] -- The CXX compiler identification is GNU 13.3.0
+[0.114s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.288s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.302s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.441s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.539s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.574s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.586s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.600s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.616s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.688s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.766s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.787s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.812s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.881s] -- Found mocap4r2_marker_viz_srvs: 0.0.7 (/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/share/mocap4r2_marker_viz_srvs/cmake)
+[0.916s] -- Found mocap4r2_msgs: 0.0.3 (/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.953s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[1.016s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.119s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.119s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz/include>
+[1.119s] -- Configured cppcheck exclude dirs and/or files: 
+[1.121s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.121s] -- Configured cpplint exclude dirs and/or files: 
+[1.121s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.121s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.122s] -- Added test 'lint_cmake' to check CMake code style
+[1.122s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.123s] -- Added test 'uncrustify' to check C / C++ code style
+[1.124s] -- Configured uncrustify additional arguments: 
+[1.124s] -- Added test 'xmllint' to check XML markup files
+[1.125s] -- Configuring done (1.1s)
+[1.142s] -- Generating done (0.0s)
+[1.146s] -- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz
+[1.160s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz
+[1.162s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz -- -j16 -l16
+[1.218s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz_NODE.dir/src/mocap4r2_marker_viz_node.cpp.o[0m
+[10.239s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_marker_viz_NODE.a[0m
+[10.405s] [ 50%] Built target mocap4r2_marker_viz_NODE
+[10.428s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_marker_viz.dir/src/mocap4r2_marker_viz_main.cpp.o[0m
+[13.038s] [100%] [32m[1mLinking CXX executable mocap4r2_marker_viz[0m
+[13.422s] [100%] Built target mocap4r2_marker_viz
+[13.435s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz -- -j16 -l16
+[13.436s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz
+[13.444s] -- Install configuration: ""
+[13.445s] -- Execute custom install script
+[13.445s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/lib/libmocap4r2_marker_viz_NODE.a
+[13.455s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/lib/mocap4r2_marker_viz/mocap4r2_marker_viz
+[13.464s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/launch/mocap4r2_marker_viz.launch.py
+[13.473s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/rviz/config.rviz
+[13.483s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/package_run_dependencies/mocap4r2_marker_viz
+[13.492s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/parent_prefix_path/mocap4r2_marker_viz
+[13.502s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.sh
+[13.511s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/ament_prefix_path.dsv
+[13.519s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.sh
+[13.528s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/environment/path.dsv
+[13.537s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.bash
+[13.546s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.sh
+[13.554s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.zsh
+[13.562s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/local_setup.dsv
+[13.571s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.dsv
+[13.580s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/ament_index/resource_index/packages/mocap4r2_marker_viz
+[13.588s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig.cmake
+[13.597s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/cmake/mocap4r2_marker_vizConfig-version.cmake
+[13.607s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz/share/mocap4r2_marker_viz/package.xml
+[13.618s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz

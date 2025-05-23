@@ -1,0 +1,194 @@
+[0.051s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs -- -j16 -l16
+[0.190s] [  1%] Built target mocap4r2_msgs__rosidl_generator_type_description
+[0.221s] [  1%] Built target ament_cmake_python_symlink_mocap4r2_msgs
+[0.273s] [  2%] Built target mocap4r2_msgs__cpp
+[0.292s] [ 25%] Built target mocap4r2_msgs__rosidl_generator_c
+[0.446s] [ 35%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_c
+[0.467s] [ 44%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_c
+[0.484s] [ 58%] Built target mocap4r2_msgs__rosidl_typesupport_introspection_cpp
+[0.485s] [ 63%] Built target mocap4r2_msgs__rosidl_typesupport_fastrtps_cpp
+[0.493s] [ 72%] Built target mocap4r2_msgs__rosidl_typesupport_c
+[0.495s] [ 82%] Built target mocap4r2_msgs__rosidl_typesupport_cpp
+[0.556s] [ 82%] Built target mocap4r2_msgs
+[0.624s] [ 83%] Built target mocap4r2_msgs__py
+[0.701s] [ 91%] Built target mocap4r2_msgs__rosidl_generator_py
+[0.795s] [ 94%] Built target mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c
+[0.801s] [ 97%] Built target mocap4r2_msgs_s__rosidl_typesupport_introspection_c
+[0.809s] [100%] Built target mocap4r2_msgs_s__rosidl_typesupport_c
+[0.974s] running egg_info
+[1.013s] writing mocap4r2_msgs.egg-info/PKG-INFO
+[1.014s] writing dependency_links to mocap4r2_msgs.egg-info/dependency_links.txt
+[1.014s] writing top-level names to mocap4r2_msgs.egg-info/top_level.txt
+[1.152s] reading manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[1.153s] writing manifest file 'mocap4r2_msgs.egg-info/SOURCES.txt'
+[1.210s] [100%] Built target ament_cmake_python_build_mocap4r2_msgs_egg
+[1.294s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs -- -j16 -l16
+[1.296s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs
+[1.317s] -- Install configuration: ""
+[1.319s] -- Execute custom install script
+[1.320s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/rosidl_interfaces/mocap4r2_msgs
+[1.320s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.json
+[1.321s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.json
+[1.322s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.json
+[1.323s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.json
+[1.323s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.json
+[1.325s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__functions.h
+[1.325s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.h
+[1.325s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__type_support.h
+[1.326s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__functions.h
+[1.326s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.h
+[1.327s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.h
+[1.327s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__functions.h
+[1.327s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.h
+[1.328s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.h
+[1.328s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__functions.h
+[1.328s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.h
+[1.328s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.h
+[1.329s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__functions.h
+[1.329s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.h
+[1.330s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.h
+[1.330s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.h
+[1.330s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.h
+[1.330s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.h
+[1.330s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.h
+[1.331s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.h
+[1.331s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.331s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.sh
+[1.333s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/library_path.dsv
+[1.334s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_c.h
+[1.334s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[1.335s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+[1.335s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_c.h
+[1.336s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_c.h
+[1.336s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.337s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_c.h
+[1.338s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[1.339s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h
+[1.339s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_c.h
+[1.340s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_c.h
+[1.340s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.341s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__builder.hpp
+[1.342s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__struct.hpp
+[1.342s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__traits.hpp
+[1.343s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__type_support.hpp
+[1.345s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__builder.hpp
+[1.345s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__struct.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__traits.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__type_support.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__builder.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__struct.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__traits.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__type_support.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__builder.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__struct.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__traits.hpp
+[1.346s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__type_support.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__builder.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__struct.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__traits.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__type_support.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/imus_info.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/marker.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/markers.hpp
+[1.347s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_bodies.hpp
+[1.348s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rigid_body.hpp
+[1.348s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.349s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.349s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[1.349s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+[1.349s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_fastrtps_cpp.hpp
+[1.349s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_fastrtps_cpp.hpp
+[1.349s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.350s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/imus_info__rosidl_typesupport_introspection_cpp.hpp
+[1.350s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[1.351s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+[1.351s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_bodies__rosidl_typesupport_introspection_cpp.hpp
+[1.352s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/include/mocap4r2_msgs/mocap4r2_msgs/msg/detail/rigid_body__rosidl_typesupport_introspection_cpp.hpp
+[1.352s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.sh
+[1.352s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/pythonpath.dsv
+[1.352s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/PKG-INFO
+[1.352s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/SOURCES.txt
+[1.353s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/dependency_links.txt
+[1.353s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs-0.0.3-py3.12.egg-info/top_level.txt
+[1.353s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/__init__.py
+[1.353s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_c.c
+[1.353s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.354s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/_mocap4r2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.354s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.so
+[1.354s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.354s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.so
+[1.354s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/__init__.py
+[1.355s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_imus_info.py
+[1.355s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_imus_info_s.c
+[1.355s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_marker.py
+[1.355s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_marker_s.c
+[1.355s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_markers.py
+[1.356s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_markers_s.c
+[1.356s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_bodies.py
+[1.356s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_bodies_s.c
+[1.356s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_body.py
+[1.356s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg/_rigid_body_s.c
+[1.357s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.357s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_introspection_c.so
+[1.358s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/mocap4r2_msgs_s__rosidl_typesupport_c.so
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.idl
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.idl
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.idl
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.idl
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.idl
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Marker.msg
+[1.359s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/Markers.msg
+[1.360s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/ImusInfo.msg
+[1.361s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBody.msg
+[1.361s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/msg/RigidBodies.msg
+[1.361s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/mocap4r2_bridge_mapping_rule.yaml
+[1.362s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/package_run_dependencies/mocap4r2_msgs
+[1.362s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/parent_prefix_path/mocap4r2_msgs
+[1.363s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.sh
+[1.363s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/ament_prefix_path.dsv
+[1.364s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.sh
+[1.364s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/environment/path.dsv
+[1.364s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.bash
+[1.364s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.sh
+[1.365s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.zsh
+[1.365s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/local_setup.dsv
+[1.365s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.dsv
+[1.384s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/ament_index/resource_index/packages/mocap4r2_msgs
+[1.384s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake-extras.cmake
+[1.384s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.385s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.385s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.385s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.386s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.386s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.386s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig.cmake
+[1.387s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgsConfig-version.cmake
+[1.387s] -- Up-to-date symlink: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/package.xml
+[1.388s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_c.so
+[1.388s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_c.so
+[1.389s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_c.so
+[1.389s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_c.so
+[1.390s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.390s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_introspection_cpp.so
+[1.391s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_typesupport_cpp.so
+[1.473s] Listing '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs'...
+[1.473s] Listing '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages/mocap4r2_msgs/msg'...
+[1.485s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/libmocap4r2_msgs__rosidl_generator_py.so
+[1.486s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport.cmake
+[1.487s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.487s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.488s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.488s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.488s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.489s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport.cmake
+[1.489s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.489s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_cppExport.cmake
+[1.490s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.490s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.490s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.491s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.491s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport.cmake
+[1.491s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/mocap4r2_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.491s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport.cmake
+[1.492s] -- Up-to-date: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake/export_mocap4r2_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.864s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2cli:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs

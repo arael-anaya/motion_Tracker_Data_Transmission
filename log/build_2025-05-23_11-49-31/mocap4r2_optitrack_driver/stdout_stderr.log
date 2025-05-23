@@ -1,0 +1,64 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o[0m
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:[m[K In member function ‘[01m[Kvoid mocap4r2_optitrack_driver::OptitrackDriverNode::[01;32m[Kprocess_frame[m[K(sFrameOfMocapData*)[m[K’:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:42:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kto_string(const char [6])[m[K’
+  174 |       rb.rigid_body_name = [01;31m[Kstd::to_string("drone")[m[K;
+      |                            [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/string:54[m[K,
+                 from [01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:21[m[K:
+[01m[K/usr/include/c++/13/bits/basic_string.h:4162:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(int)[m[K’ (near match)
+ 4162 |   [01;36m[Kto_string[m[K(int __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4162:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  174 |       rb.rigid_body_name = std::to_string([01;31m[K"drone"[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4177:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(unsigned int)[m[K’ (near match)
+ 4177 |   [01;36m[Kto_string[m[K(unsigned __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4177:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kunsigned int[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  174 |       rb.rigid_body_name = std::to_string([01;31m[K"drone"[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4189:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long int)[m[K’ (near match)
+ 4189 |   [01;36m[Kto_string[m[K(long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4189:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong int[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  174 |       rb.rigid_body_name = std::to_string([01;31m[K"drone"[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4204:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long unsigned int)[m[K’ (near match)
+ 4204 |   [01;36m[Kto_string[m[K(unsigned long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4204:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong unsigned int[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  174 |       rb.rigid_body_name = std::to_string([01;31m[K"drone"[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4216:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long long int)[m[K’ (near match)
+ 4216 |   [01;36m[Kto_string[m[K(long long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4216:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong long int[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  174 |       rb.rigid_body_name = std::to_string([01;31m[K"drone"[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::string std::__cxx11::[01;32m[Kto_string[m[K(long long unsigned int)[m[K’ (near match)
+ 4229 |   [01;36m[Kto_string[m[K(unsigned long long __val)
+      |   [01;36m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/basic_string.h:4229:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:174:43:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Klong long unsigned int[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  174 |       rb.rigid_body_name = std::to_string([01;31m[K"drone"[m[K);
+      |                                           [01;31m[K^~~~~~~[m[K
+      |                                           [01;31m[K|[m[K
+      |                                           [01;31m[Kconst char*[m[K
+gmake[2]: *** [CMakeFiles/mocap4r2_optitrack_driver.dir/build.make:76: CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mocap4r2_optitrack_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

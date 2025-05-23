@@ -1,0 +1,13 @@
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:[m[K In member function ‘[01m[Kvoid mocap4r2_optitrack_driver::OptitrackDriverNode::[01;32m[Kprocess_frame[m[K(sFrameOfMocapData*)[m[K’:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:177:41:[m[K [01;31m[Kerror: [m[K‘[01m[KsRigidBodyDescription[m[K’ {aka ‘[01m[Kstruct sRigidBodyDescription[m[K’} has no member named ‘[01m[KnDataDescriptions[m[K’
+  177 |       for (int j = 0; j < descriptions->[01;31m[KnDataDescriptions[m[K; j++) {
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:178:27:[m[K [01;31m[Kerror: [m[K‘[01m[KsRigidBodyDescription[m[K’ {aka ‘[01m[Kstruct sRigidBodyDescription[m[K’} has no member named ‘[01m[KarrDataDescriptions[m[K’
+  178 |         if (descriptions->[01;31m[KarrDataDescriptions[m[K[j].type == Descriptor_RigidBody) {
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:179:55:[m[K [01;31m[Kerror: [m[K‘[01m[KsRigidBodyDescription[m[K’ {aka ‘[01m[Kstruct sRigidBodyDescription[m[K’} has no member named ‘[01m[KarrDataDescriptions[m[K’
+  179 |           sRigidBodyDescription* desc = descriptions->[01;31m[KarrDataDescriptions[m[K[j].Data.RigidBodyDescription;
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mocap4r2_optitrack_driver.dir/build.make:76: CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mocap4r2_optitrack_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

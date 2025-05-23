@@ -1,0 +1,96 @@
+[0.042s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs
+[0.178s] -- The C compiler identification is GNU 13.3.0
+[0.317s] -- The CXX compiler identification is GNU 13.3.0
+[0.358s] -- Detecting C compiler ABI info
+[0.586s] -- Detecting C compiler ABI info - done
+[0.608s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.609s] -- Detecting C compile features
+[0.611s] -- Detecting C compile features - done
+[0.632s] -- Detecting CXX compiler ABI info
+[0.882s] -- Detecting CXX compiler ABI info - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.906s] -- Detecting CXX compile features
+[0.907s] -- Detecting CXX compile features - done
+[0.913s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.268s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.522s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.536s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.655s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.754s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.762s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.797s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.841s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[3.384s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.577s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.136s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.419s] -- Found PythonExtra: /usr/bin/python3  
+[7.135s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.233s] -- Configuring done (7.2s)
+[7.292s] -- Generating done (0.0s)
+[7.307s] -- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs
+[7.318s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/src/install/mocap4r2_control_msgs
+[7.320s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/src/build/mocap4r2_control_msgs -- -j16 -l16
+[7.392s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.403s] [  2%] Built target ament_cmake_python_symlink_mocap4r2_control_msgs
+[7.651s] [  2%] Built target mocap4r2_control_msgs__rosidl_generator_type_description
+[7.657s] running egg_info
+[7.657s] creating mocap4r2_control_msgs.egg-info
+[7.665s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.676s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.679s] writing mocap4r2_control_msgs.egg-info/PKG-INFO
+[7.679s] writing dependency_links to mocap4r2_control_msgs.egg-info/dependency_links.txt
+[7.680s] writing top-level names to mocap4r2_control_msgs.egg-info/top_level.txt
+[7.680s] writing manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'
+[7.746s] reading manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'
+[7.747s] writing manifest file 'mocap4r2_control_msgs.egg-info/SOURCES.txt'
+[7.788s] [  6%] Built target ament_cmake_python_build_mocap4r2_control_msgs_egg
+[8.040s] [ 11%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__description.c.o[0m
+[8.040s] [ 11%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__description.c.o[0m
+[8.041s] [ 13%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__functions.c.o[0m
+[8.041s] [ 15%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.c.o[0m
+[8.042s] [ 18%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/control__type_support.c.o[0m
+[8.042s] [ 20%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_generator_c.dir/rosidl_generator_c/mocap4r2_control_msgs/msg/detail/mocap_info__functions.c.o[0m
+[8.049s] [ 20%] Built target mocap4r2_control_msgs__cpp
+[8.099s] [ 22%] [32m[1mLinking C shared library libmocap4r2_control_msgs__rosidl_generator_c.so[0m
+[8.138s] [ 22%] Built target mocap4r2_control_msgs__rosidl_generator_c
+[8.154s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.154s] [ 27%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.154s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.155s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.159s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.169s] [ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.645s] [ 38%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.c.o[0m
+[8.649s] [ 40%] [32mBuilding C object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mocap4r2_control_msgs/msg/detail/control__type_support.c.o[0m
+[8.670s] [ 43%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/control__type_support.cpp.o[0m
+[8.672s] [ 45%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/mocap_info__type_support.cpp.o[0m
+[8.688s] [ 47%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[8.697s] [ 50%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/mocap_info__type_support.cpp.o[0m
+[8.708s] [ 52%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_control_msgs/msg/detail/control__type_support.cpp.o[0m
+[8.709s] [ 54%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mocap4r2_control_msgs/msg/detail/mocap_info__type_support.cpp.o[0m
+[8.734s] [ 56%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_control_msgs/msg/control__type_support.cpp.o[0m
+[8.742s] [ 59%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/mocap4r2_control_msgs/msg/mocap_info__type_support.cpp.o[0m
+[8.761s] [ 61%] [32m[1mLinking C shared library libmocap4r2_control_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.813s] [ 63%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/control__type_support_c.cpp.o[0m
+[8.819s] [ 65%] [32mBuilding CXX object CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support_c.cpp.o[0m
+[8.871s] [ 68%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_c.so[0m
+[8.877s] [ 68%] Built target mocap4r2_control_msgs__rosidl_typesupport_introspection_c
+[8.996s] [ 68%] Built target mocap4r2_control_msgs__rosidl_typesupport_c
+[9.428s] [ 70%] [32m[1mLinking CXX shared library libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[9.474s] gmake[2]: *** Deleting file 'libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so'
+[9.475s] gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:162: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o] Interrupt
+[9.475s] gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:176: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mocap4r2_control_msgs/msg/detail/dds_fastrtps/mocap_info__type_support.cpp.o] Interrupt
+[9.477s] gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/build.make:154: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mocap4r2_control_msgs/msg/control__type_support.cpp.o] Interrupt
+[9.479s] gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:210: libmocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.so] Interrupt
+[9.480s] gmake[1]: *** [CMakeFiles/Makefile2:372: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+[9.480s] gmake[1]: *** [CMakeFiles/Makefile2:399: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[9.480s] gmake[2]: *** [CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/build.make:176: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mocap4r2_control_msgs/msg/detail/mocap_info__type_support_c.cpp.o] Interrupt
+[9.480s] gmake[2]: *** wait: No child processes.  Stop.
+[9.480s] gmake[2]: *** Waiting for unfinished jobs....
+[9.480s] gmake[2]: *** wait: No child processes.  Stop.
+[9.481s] gmake[1]: *** [CMakeFiles/Makefile2:267: CMakeFiles/mocap4r2_control_msgs__rosidl_typesupport_fastrtps_c.dir/all] Error 2
+[9.481s] gmake[1]: *** wait: No child processes.  Stop.
+[9.481s] gmake[1]: *** Waiting for unfinished jobs....
+[9.481s] gmake[1]: *** wait: No child processes.  Stop.
+[9.481s] gmake: *** [Makefile:146: all] Error 2

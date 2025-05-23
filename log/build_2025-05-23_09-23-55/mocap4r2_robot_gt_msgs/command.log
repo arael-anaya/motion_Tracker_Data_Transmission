@@ -1,0 +1,1 @@
+Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_robot_gt_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_robot_gt_msgs

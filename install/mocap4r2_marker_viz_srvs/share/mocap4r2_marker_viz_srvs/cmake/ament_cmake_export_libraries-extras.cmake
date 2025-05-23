@@ -1,0 +1,1 @@
+/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz_srvs/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

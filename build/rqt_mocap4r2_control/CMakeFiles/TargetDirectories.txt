@@ -1,0 +1,10 @@
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/uninstall.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/rqt_mocap4r2_control_uninstall.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/rqt_mocap4r2_control.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/test.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/edit_cache.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/rebuild_cache.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/list_install_components.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/install.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/install/local.dir
+/home/arael/Downloads/Mpala /mocap_ws/build/rqt_mocap4r2_control/CMakeFiles/install/strip.dir

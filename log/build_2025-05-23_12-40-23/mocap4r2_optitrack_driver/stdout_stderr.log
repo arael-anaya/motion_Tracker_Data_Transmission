@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o[0m
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:[m[K In member function ‘[01m[Kvoid mocap4r2_optitrack_driver::OptitrackDriverNode::[01;32m[Kprocess_frame[m[K(sFrameOfMocapData*)[m[K’:
+[01m[K/home/arael/Downloads/Mpala /mocap_ws/src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp:177:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kdescriptions_[m[K’ was not declared in this scope; did you mean ‘[01m[Kdescriptions[m[K’?
+  177 |       for (int j = 0; j < [01;31m[Kdescriptions_[m[K->nDataDescriptions; j++) {
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+      |                           [32m[Kdescriptions[m[K
+gmake[2]: *** [CMakeFiles/mocap4r2_optitrack_driver.dir/build.make:76: CMakeFiles/mocap4r2_optitrack_driver.dir/src/mocap4r2_optitrack_driver/mocap4r2_optitrack_driver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/mocap4r2_optitrack_driver.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

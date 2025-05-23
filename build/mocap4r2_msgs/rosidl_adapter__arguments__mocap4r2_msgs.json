@@ -1,0 +1,10 @@
+{
+  "package_name": "mocap4r2_msgs",
+  "non_idl_tuples": [
+    "/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs:msg/Marker.msg",
+    "/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs:msg/Markers.msg",
+    "/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs:msg/ImusInfo.msg",
+    "/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs:msg/RigidBody.msg",
+    "/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs:msg/RigidBodies.msg"
+  ]
+}

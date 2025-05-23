@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fbb3263179b07a8b37a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "mocap4r2_robot_gt_msgs__py",
+					"jsonFile" : "directory-mocap4r2_robot_gt_msgs__py-8dca5842efbd92462944.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_robot_gt_msgs/mocap4r2_robot_gt_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mocap4r2_robot_gt_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg-8cbeafa0a1775a3c1f06.json",
+					"name" : "ament_cmake_python_build_mocap4r2_robot_gt_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_mocap4r2_robot_gt_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_mocap4r2_robot_gt_msgs-dba39837775e58465eb1.json",
+					"name" : "ament_cmake_python_symlink_mocap4r2_robot_gt_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs-3943070c2fc0c4b4dfda.json",
+					"name" : "mocap4r2_robot_gt_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__cpp-9e5118b7b42bf37a481d.json",
+					"name" : "mocap4r2_robot_gt_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mocap4r2_robot_gt_msgs__py::@82d2eac7b955268b2719",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__py-c55a6e74138eaa4c8343.json",
+					"name" : "mocap4r2_robot_gt_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_generator_c-c5bac6a6439db345b46b.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_generator_py-4e263675fdc123ff84e1.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_generator_type_description-54cd9d59614329a51314.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_typesupport_c-7356c6a1647602c2bc6d.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp-e7c05513bdea7fdbcaf9.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c-5ed7d35b74312527bc68.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp-0d6c5aaf25bc93ac3a0c.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c-8902a6bd53f996ad376f.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp-14f20325235799f3e9b0.json",
+					"name" : "mocap4r2_robot_gt_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c-0c850fbcc5fade63fb3e.json",
+					"name" : "mocap4r2_robot_gt_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c-fdbe0b0ad1ae33a45985.json",
+					"name" : "mocap4r2_robot_gt_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c-7a682ef41046cf48dc30.json",
+					"name" : "mocap4r2_robot_gt_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mocap4r2_robot_gt_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mocap4r2_robot_gt_msgs_uninstall-8318bc962028f984e146.json",
+					"name" : "mocap4r2_robot_gt_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-97e2e7aa16737aab3ea0.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_robot_gt_msgs",
+		"source" : "/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

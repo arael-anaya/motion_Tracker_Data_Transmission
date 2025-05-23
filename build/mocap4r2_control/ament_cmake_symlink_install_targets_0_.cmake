@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control/libmocap4r2_control.so" "/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control/auxiliar_main" "TARGETS" "mocap4r2_control" "auxiliar_main" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/mocap4r2_control")

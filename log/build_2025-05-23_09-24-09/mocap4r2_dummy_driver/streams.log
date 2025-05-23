@@ -1,0 +1,78 @@
+[0.011s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_dummy_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.409s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.470s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.528s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.539s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.552s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.566s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.630s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.633s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.704s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.719s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.738s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.799s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[0.825s] -- Found mocap4r2_msgs: 0.0.3 (/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/share/mocap4r2_msgs/cmake)
+[0.870s] -- Found mocap4r2_control: 0.0.7 (/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/share/mocap4r2_control/cmake)
+[0.902s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.990s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.992s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.992s] -- Configured cppcheck include dirs: /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_dummy_driver/include
+[0.992s] -- Configured cppcheck exclude dirs and/or files: 
+[0.993s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.993s] -- Configured cpplint exclude dirs and/or files: 
+[0.993s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.993s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.994s] -- Added test 'lint_cmake' to check CMake code style
+[0.994s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.995s] -- Added test 'uncrustify' to check C / C++ code style
+[0.995s] -- Configured uncrustify additional arguments: 
+[0.996s] -- Added test 'xmllint' to check XML markup files
+[0.998s] -- Configuring done (1.0s)
+[1.036s] -- Generating done (0.0s)
+[1.040s] -- Build files have been written to: /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver
+[1.051s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_dummy_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver
+[1.052s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver -- -j16 -l16
+[1.100s] [ 25%] [32mBuilding CXX object CMakeFiles/mocap4r2_dummy_driver.dir/src/mocap4r2_dummy_driver/mocap4r2_dummy_driver.cpp.o[0m
+[5.920s] [ 50%] [32m[1mLinking CXX static library libmocap4r2_dummy_driver.a[0m
+[5.991s] [ 50%] Built target mocap4r2_dummy_driver
+[6.013s] [ 75%] [32mBuilding CXX object CMakeFiles/mocap4r2_dummy_driver_main.dir/src/mocap4r2_dummy_driver_main.cpp.o[0m
+[8.609s] [100%] [32m[1mLinking CXX executable mocap4r2_dummy_driver_main[0m
+[8.931s] [100%] Built target mocap4r2_dummy_driver_main
+[8.945s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver -- -j16 -l16
+[8.946s] Invoking command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver
+[8.955s] -- Install configuration: ""
+[8.955s] -- Execute custom install script
+[8.956s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/launch/dummy.launch.py
+[8.966s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/lib/libmocap4r2_dummy_driver.a
+[8.976s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/lib/mocap4r2_dummy_driver/mocap4r2_dummy_driver_main
+[8.988s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/package_run_dependencies/mocap4r2_dummy_driver
+[8.999s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/parent_prefix_path/mocap4r2_dummy_driver
+[9.010s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/ament_prefix_path.sh
+[9.021s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/ament_prefix_path.dsv
+[9.031s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/path.sh
+[9.041s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/environment/path.dsv
+[9.052s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.bash
+[9.063s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.sh
+[9.074s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.zsh
+[9.084s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/local_setup.dsv
+[9.095s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.dsv
+[9.107s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/ament_index/resource_index/packages/mocap4r2_dummy_driver
+[9.116s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.127s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/mocap4r2_dummy_driverConfig.cmake
+[9.137s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/cmake/mocap4r2_dummy_driverConfig-version.cmake
+[9.146s] -- Symlinking: /home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_dummy_driver/share/mocap4r2_dummy_driver/package.xml
+[9.159s] Invoked command in '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver' returned '0': AMENT_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs/lib/python3.12/site-packages:/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_dummy_driver

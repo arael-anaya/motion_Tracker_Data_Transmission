@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (mocap4r2_control_msgs) JobQueued: {'identifier': 'mocap4r2_control_msgs', 'dependencies': OrderedDict()}
+[0.000193] (mocap4r2_marker_viz_srvs) JobQueued: {'identifier': 'mocap4r2_marker_viz_srvs', 'dependencies': OrderedDict()}
+[0.000221] (mocap4r2_msgs) JobQueued: {'identifier': 'mocap4r2_msgs', 'dependencies': OrderedDict()}
+[0.000242] (mocap4r2_robot_gt_msgs) JobQueued: {'identifier': 'mocap4r2_robot_gt_msgs', 'dependencies': OrderedDict()}
+[0.000261] (mocap4r2_control) JobQueued: {'identifier': 'mocap4r2_control', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs'})}
+[0.000288] (mocap4r2_marker_publisher) JobQueued: {'identifier': 'mocap4r2_marker_publisher', 'dependencies': OrderedDict({'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs'})}
+[0.000311] (mocap4r2_marker_viz) JobQueued: {'identifier': 'mocap4r2_marker_viz', 'dependencies': OrderedDict({'mocap4r2_marker_viz_srvs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs', 'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs'})}
+[0.000334] (mocap4r2_robot_gt) JobQueued: {'identifier': 'mocap4r2_robot_gt', 'dependencies': OrderedDict({'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs', 'mocap4r2_robot_gt_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_robot_gt_msgs'})}
+[0.000346] (mocap4r2cli) JobQueued: {'identifier': 'mocap4r2cli', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs'})}
+[0.000355] (mocap4r2_dummy_driver) JobQueued: {'identifier': 'mocap4r2_dummy_driver', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs', 'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs', 'mocap4r2_control': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control'})}
+[0.000366] (mocap4r2_optitrack_driver) JobQueued: {'identifier': 'mocap4r2_optitrack_driver', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs', 'mocap4r2_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs', 'mocap4r2_control': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control'})}
+[0.000380] (rqt_mocap4r2_control) JobQueued: {'identifier': 'rqt_mocap4r2_control', 'dependencies': OrderedDict({'mocap4r2_control_msgs': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs', 'mocap4r2_control': '/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control'})}
+[0.000809] (mocap4r2_control_msgs) JobStarted: {'identifier': 'mocap4r2_control_msgs'}
+[0.003351] (mocap4r2_msgs) JobStarted: {'identifier': 'mocap4r2_msgs'}
+[0.004355] (mocap4r2_marker_viz_srvs) JobStarted: {'identifier': 'mocap4r2_marker_viz_srvs'}
+[0.004997] (mocap4r2_robot_gt_msgs) JobStarted: {'identifier': 'mocap4r2_robot_gt_msgs'}
+[0.006781] (mocap4r2_control_msgs) JobProgress: {'identifier': 'mocap4r2_control_msgs', 'progress': 'cmake'}
+[0.007227] (mocap4r2_control_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_control/mocap4r2_control_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_control_msgs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf4869de_1392_41d6_b686_f7735bbd1c06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_control_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.008774] (mocap4r2_msgs) JobProgress: {'identifier': 'mocap4r2_msgs', 'progress': 'cmake'}
+[0.009181] (mocap4r2_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_msgs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf4869de_1392_41d6_b686_f7735bbd1c06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.010188] (mocap4r2_marker_viz_srvs) JobProgress: {'identifier': 'mocap4r2_marker_viz_srvs', 'progress': 'cmake'}
+[0.010864] (mocap4r2_marker_viz_srvs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_marker_viz/mocap4r2_marker_viz_srvs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_marker_viz_srvs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz_srvs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf4869de_1392_41d6_b686_f7735bbd1c06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_marker_viz_srvs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.012659] (mocap4r2_robot_gt_msgs) JobProgress: {'identifier': 'mocap4r2_robot_gt_msgs', 'progress': 'cmake'}
+[0.013098] (mocap4r2_robot_gt_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/arael/Downloads/Mpala /mocap_ws/src/mocap4r2/mocap4r2_robot_gt/mocap4r2_robot_gt_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/arael/Downloads/Mpala /mocap_ws/install/mocap4r2_robot_gt_msgs'], 'cwd': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_robot_gt_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'arael', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/arael', 'OLDPWD': '/home/arael/Downloads/Mpala /mocap_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2663', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'arael', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'arael', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Unit:@/tmp/.ICE-unix/2625,unix/Unit:/tmp/.ICE-unix/2625', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf4869de_1392_41d6_b686_f7735bbd1c06', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AGWI72', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.187', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/arael/Downloads/Mpala /mocap_ws/build/mocap4r2_robot_gt_msgs', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.049389] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.049661] (mocap4r2_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.049854] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.056246] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.091236] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.092299] (mocap4r2_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.093767] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.099695] (-) TimerEvent: {}
+[0.100482] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.104222] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.104377] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.106245] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.112965] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.170042] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.170329] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.170887] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.176509] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.176709] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.176845] (mocap4r2_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.176990] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177120] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.177288] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177408] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.177625] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.177887] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.183866] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184012] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.184164] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.184323] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.190544] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.190831] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.191000] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.198878] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199763] (-) TimerEvent: {}
+[0.257211] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.257674] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.258681] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.263872] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.264114] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.264423] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.264887] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.265343] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.265593] (mocap4r2_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.265816] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.265941] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.266165] (mocap4r2_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.271613] (mocap4r2_control_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:4 (find_package):\n'}
+[0.271714] (mocap4r2_control_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.271767] (mocap4r2_control_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.271812] (mocap4r2_control_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.271855] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.271897] (mocap4r2_control_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.271939] (mocap4r2_control_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.271981] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.272021] (mocap4r2_control_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.272064] (mocap4r2_control_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.272106] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.272147] (mocap4r2_control_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.272187] (mocap4r2_control_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.272228] (mocap4r2_control_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.272269] (mocap4r2_control_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.272310] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.272350] (mocap4r2_control_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.272968] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.273298] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.273354] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.273400] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.273452] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'\n'}
+[0.273500] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.273540] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.273580] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'\n'}
+[0.273620] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.273660] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.273700] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'\n'}
+[0.273739] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.273779] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.273818] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.273856] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'  has been installed.\n'}
+[0.273895] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'\n'}
+[0.273934] (mocap4r2_marker_viz_srvs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.273972] (mocap4r2_marker_viz_srvs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.274018] (mocap4r2_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:4 (find_package):\n'}
+[0.274082] (mocap4r2_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.274125] (mocap4r2_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.274164] (mocap4r2_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.274203] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.274242] (mocap4r2_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.274280] (mocap4r2_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.274319] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.274358] (mocap4r2_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.274396] (mocap4r2_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.274439] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.274486] (mocap4r2_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.274536] (mocap4r2_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.274578] (mocap4r2_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.274617] (mocap4r2_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.274657] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.274695] (mocap4r2_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.276271] (mocap4r2_marker_viz_srvs) CommandEnded: {'returncode': 1}
+[0.278270] (mocap4r2_control_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.278350] (mocap4r2_control_msgs) StderrLine: {'line': b'  By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH\n'}
+[0.278402] (mocap4r2_control_msgs) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.278456] (mocap4r2_control_msgs) StderrLine: {'line': b'  by "rosidl_default_generators", but CMake did not find one.\n'}
+[0.278504] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.278548] (mocap4r2_control_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.278592] (mocap4r2_control_msgs) StderrLine: {'line': b'  "rosidl_default_generators" with any of the following names:\n'}
+[0.278638] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.278682] (mocap4r2_control_msgs) StderrLine: {'line': b'    rosidl_default_generatorsConfig.cmake\n'}
+[0.278726] (mocap4r2_control_msgs) StderrLine: {'line': b'    rosidl_default_generators-config.cmake\n'}
+[0.278769] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.278842] (mocap4r2_control_msgs) StderrLine: {'line': b'  Add the installation prefix of "rosidl_default_generators" to\n'}
+[0.278935] (mocap4r2_control_msgs) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory\n'}
+[0.279028] (mocap4r2_control_msgs) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_default_generators" provides\n'}
+[0.279118] (mocap4r2_control_msgs) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.279210] (mocap4r2_control_msgs) StderrLine: {'line': b'\n'}
+[0.279301] (mocap4r2_control_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.279442] (mocap4r2_control_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.279585] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.280351] (mocap4r2_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.280528] (mocap4r2_msgs) StderrLine: {'line': b'  By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH\n'}
+[0.280630] (mocap4r2_msgs) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.280716] (mocap4r2_msgs) StderrLine: {'line': b'  by "rosidl_default_generators", but CMake did not find one.\n'}
+[0.280802] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.280896] (mocap4r2_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.280978] (mocap4r2_msgs) StderrLine: {'line': b'  "rosidl_default_generators" with any of the following names:\n'}
+[0.281058] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.281142] (mocap4r2_msgs) StderrLine: {'line': b'    rosidl_default_generatorsConfig.cmake\n'}
+[0.281228] (mocap4r2_msgs) StderrLine: {'line': b'    rosidl_default_generators-config.cmake\n'}
+[0.281278] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.281327] (mocap4r2_msgs) StderrLine: {'line': b'  Add the installation prefix of "rosidl_default_generators" to\n'}
+[0.281376] (mocap4r2_msgs) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory\n'}
+[0.281424] (mocap4r2_msgs) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_default_generators" provides\n'}
+[0.281479] (mocap4r2_msgs) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.281530] (mocap4r2_msgs) StderrLine: {'line': b'\n'}
+[0.281577] (mocap4r2_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.281626] (mocap4r2_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.282582] (mocap4r2_control_msgs) CommandEnded: {'returncode': 1}
+[0.283621] (mocap4r2_msgs) CommandEnded: {'returncode': 1}
+[0.286365] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.286779] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.286955] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.292754] (mocap4r2_marker_viz_srvs) JobEnded: {'identifier': 'mocap4r2_marker_viz_srvs', 'rc': 1}
+[0.293584] (mocap4r2_control_msgs) JobEnded: {'identifier': 'mocap4r2_control_msgs', 'rc': 'SIGINT'}
+[0.293772] (mocap4r2_msgs) JobEnded: {'identifier': 'mocap4r2_msgs', 'rc': 'SIGINT'}
+[0.294112] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning at CMakeLists.txt:4 (find_package):\n'}
+[0.294307] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.294423] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.294550] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.294656] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.294753] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.294849] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.294943] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.295035] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.295130] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.295223] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.295313] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.295403] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.295521] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.295575] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.295616] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.295657] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.299844] (-) TimerEvent: {}
+[0.301088] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.301267] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  By not providing "Findrosidl_default_generators.cmake" in CMAKE_MODULE_PATH\n'}
+[0.301386] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.301570] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  by "rosidl_default_generators", but CMake did not find one.\n'}
+[0.301680] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.301781] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.301882] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  "rosidl_default_generators" with any of the following names:\n'}
+[0.301977] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.302069] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'    rosidl_default_generatorsConfig.cmake\n'}
+[0.302162] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'    rosidl_default_generators-config.cmake\n'}
+[0.302255] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.302348] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  Add the installation prefix of "rosidl_default_generators" to\n'}
+[0.302452] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "rosidl_default_generators_DIR" to a directory\n'}
+[0.302564] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  containing one of the above files.  If "rosidl_default_generators" provides\n'}
+[0.302659] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.302750] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\n'}
+[0.302840] (mocap4r2_robot_gt_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.302889] (mocap4r2_robot_gt_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.304478] (mocap4r2_robot_gt_msgs) JobEnded: {'identifier': 'mocap4r2_robot_gt_msgs', 'rc': 'SIGINT'}
+[0.314941] (mocap4r2_control) JobSkipped: {'identifier': 'mocap4r2_control'}
+[0.315024] (mocap4r2_marker_publisher) JobSkipped: {'identifier': 'mocap4r2_marker_publisher'}
+[0.315048] (mocap4r2_marker_viz) JobSkipped: {'identifier': 'mocap4r2_marker_viz'}
+[0.315068] (mocap4r2_robot_gt) JobSkipped: {'identifier': 'mocap4r2_robot_gt'}
+[0.315087] (mocap4r2cli) JobSkipped: {'identifier': 'mocap4r2cli'}
+[0.315105] (mocap4r2_dummy_driver) JobSkipped: {'identifier': 'mocap4r2_dummy_driver'}
+[0.315122] (mocap4r2_optitrack_driver) JobSkipped: {'identifier': 'mocap4r2_optitrack_driver'}
+[0.315140] (rqt_mocap4r2_control) JobSkipped: {'identifier': 'rqt_mocap4r2_control'}
+[0.315158] (-) EventReactorShutdown: {}
